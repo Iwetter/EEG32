@@ -1,0 +1,109 @@
+(footprint "R0402"
+  (version 20260206)
+  (generator "pcbnew")
+  (generator_version "10.0")
+  (layer "F.Cu")
+  (property "Reference" "REF**"
+    (at 0.558876 -0.682947 90)
+    (unlocked yes)
+    (layer "F.SilkS")
+    (uuid "2d25920d-32db-48e8-8c7c-1c787ba231e6")
+    (effects
+      (font
+        (size 0.2286 0.2286)
+        (thickness 0.0508))))
+  (property "Value" "1MR"
+    (at 1.454355 1.849826 0)
+    (unlocked yes)
+    (layer "F.SilkS")
+    (hide yes)
+    (uuid "51bf8bc8-ec5d-4668-820b-3cd180e6a8d8")
+    (effects
+      (font
+        (size 0.2286 0.2286)
+        (thickness 0.0508))))
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "3a2ef99b-2c5f-48ed-ae76-5806d81a1ad3")
+    (effects
+      (font
+        (size 1.27 1.27))))
+  (property "Description" ""
+    (at 0 0 0)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "dc829e5f-2fc4-41cb-939e-9cf84458841e")
+    (effects
+      (font
+        (size 1.27 1.27))))
+  (sheetname "ADS1299_v1")
+  (sheetfile "ADS1299_v1.kicad_sch")
+  (attr smd)
+  (duplicate_pad_numbers_are_jumpers no)
+  (fp_line
+    (start -0.508 -0.254)
+    (end -0.508 0.254)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (layer "User.3")
+    (uuid "365d194e-e13d-4180-bb61-a439320cc4d0"))
+  (fp_line
+    (start 0.508 -0.254)
+    (end -0.508 -0.254)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (layer "User.3")
+    (uuid "b7c8feeb-2479-4ade-b0d0-029cfdb0e35e"))
+  (fp_line
+    (start 0.508 -0.254)
+    (end 0.508 0.254)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (layer "User.3")
+    (uuid "71ca2514-fd1e-4208-a9dc-9c5d9703b729"))
+  (fp_line
+    (start 0.508 0.254)
+    (end -0.508 0.254)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (layer "User.3")
+    (uuid "cc0ac0d3-b6e0-42ad-8edf-1f129c0cd9cc"))
+  (pad "1" smd rect
+    (at -0.5 0)
+    (size 0.5 0.6)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (uuid "9ed8e95d-47c4-4dac-9e31-b91cf7a2aac7"))
+  (pad "2" smd rect
+    (at 0.5 0)
+    (size 0.5 0.6)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (uuid "1dcf5a1b-6b15-477e-b987-8a24e662e16f"))
+  (embedded_fonts no)
+  (embedded_files
+    (file
+      (name "R0402.stp")
+      (type other)
+      (data |KLUv/WBtTjV2ABq3UB4t4GjKFgfQNg/n1McCYuEdJwCvHLAwBoEhpsTLh5WS7Ca7GKIZwdEdjDGM AOEXQAKDAZMBmojYiojIioi/3ryqiXdp997Iq2l4eGZo6s37mo9/7wr27w5BoUgqySEiPVo5F/XS Fv/csp99WzkX9dIU/9zQQTkanYvIJIJyoKpIVASlkiBRw+M7nbH38RSY0ByAGJOEYqkiEkrDNIke Huzb9tpQeNcHiZokBlCWR3pzdaCKSJBJlCASPRAfujKaCdSAKhULxICYEFgkEkSEwPI4hWxdNBS0 sbdo5C0YDalSRdREskgViAoyVSjpgSI5VJIIMk0iBBDp4WG3iKgoApEskYmkADXw3HNPPnr4PPbc w8AzcZgSTBTlgUJFRBCD8UQPEgKIBeJc8NFhDnSsg4fBRvPgwlibBgpOxtpQDwPONaHpNIgwV4ej AKdakLl0rMxlwQVaB5+DpyJBUCRSAgnibC4H1UbD4VwSmk3FtamwFrhkrAUbzUaDQKeBZSaA2wKm AHkCsFGIC2gLfVaBsTqc6sJcOlBFh+NAU0NIqDBwKK4JDaaaSAbOddlYmwMukgrT4NKhiCqGiAUS wVCh6TDgXBEGBhvrAYEFDawDMFbHwsDZXJwIBgEgEELChbEy0kM0GUABugEQoqisTubCXBQVmEtD AYIYT0Zz6VRcNhKca4IxoUwUxFSBWKRIJUmmBoQEhASGRwGjkXB0Kq4Ox/HgwQPG45DITE+DQ6HR UA+EhNFsFDwBPAgJm6tCQ3E5uCILlOVZkLlkLlYno5F4ro31oKNAw3kUOOCZuDrW5spcDk8ADBUp EkkIEBIGOFxIS7sFimUKjtrXfIy6iH2KmYh9iNd3+IbW9/d+3sd8vcd8mqd4yHfndvt2e358bcnG a7+nlntoiGeG9298/t/f/L7f+pyv+Huv9vmO3uBo3N4igCoiURNpqlAebb/8+X7+2m57/O3n7edu nv2NrOrnrG2+aCy/aup5d19zX+M26vX16fX1Y5seXz9fL3/7enNecy7z8zErG6fmL16m73Gv8QKT 9y933dJRty1z+XFv7xZSgkoEpFq0NdZXdtVWW2X1VVZd1VRG1VNLNfVP9cROQ+X8TTvV9EzFRNNL t+RHdcynJhMFoipAoiqNzLiLqHiJ5onYh2y4f+h3fdbJ93uod5x5jtd3bJdv6Habbc7Wa6y2mmmO 1mdqdvmY6d/OvaqZiL9w2DUOKxQKIiV4HLf9YvlVPbPxWPl8DVt/0xH7Vo/ffLH9ep6m2uh8vXar j+mXiv3HbL3YfU3PQ21cPl0z/df0x+bjNV5svr56fmPzvTSZJI/d3V3d3d3cVVVcVdVbVU3bzMzX zEwP/r3Jv7qY/3iK7v6vixR8Y0yiySJRlQjyuLd/d29nX3f3dPP89u7O1k7stn52bl5WTkZmzt1e 3l3dXNxb23dtZV1VTTw1fc/O1UzMy7N8b15NTMS7hcowF6rNJfHWuM1lQsG18UvHNRzGaECcSwIW RKpMkUef/T/zebvznnr6st6392+ednYunnOz6h3zcqqdcjLqm/Hvp9uubmab7Wsjm2qq3xrqaZ+a 6SdfGudmHtqlZdsZ4+KZLsxyYfiH0L9fXuaiAUlYFBUQI5IVNZEeJEgkgajQMhUQPfxRPx//3v69 H715XT2dXwHP/L0bJRIJgaWKSBaKBPLYZ0793cxXTfzMvEdM+7t8R0v3f2x3dmRvblxnZtTlxXRF 9OTEc2RE8+PDb2NDb1wFCRI1dPNx723raedl42HfXdtZvz27Obc1szGvLasppyWjIZ8dm+XCGHEx iSQQj1/08/3u412/3e7Ttdz0Q+r6bPlVXbdVWXP1/FTRL/X8UM3v1E2/79P7PLuTOXfT+jQ7+TCz 73Itne/xAtPC6eMmuq+18r8udl6qt/E7zA0hYZ3XYW29h5/mb6uN7LADDpXqweZrrcaVCEqVO3Eh wLlQaCAwDTIXTAOKCFWBgYRFcYDxKMDhaCgcJC4djkUBcbbZgCzPwkNxXR3Lw2zx//zNdsGIpEpU SSRTQz/7/mtk0uf8xdfXRcOBgKIccDAkh8gS8bi0V/x7nUgP1cPZAWgMQzwRiUvGQkDieniiZ6NR 8FgdK/JcGw1kfd8MG9WlwWg6DayJjTXxUFhW5gJJKBAKBZkkEBDRQ51hQIXiAKkiUno/VCgNFbph A0JTq0CMgzILLpxrAmoslNFkLgquiaezsSrM9fHxfQ4ABYmIUCoQD+/31sXUIEWaJYnDJJpEUySq SJTF0QBgHZKj4ZgkkunBMVkCiOglFEmoAUHLSk0KxohIlqiSRAcoEoVkUAVI1IQCQUhgPPAgB5eO xJXJaBASJJ6Jq7O5OBzr6VgP57p0Lp3M9UhcNp0Lo7kWPJnretC5DshYHc5l4rkkrArO82AaYB4g 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|)
+      (checksum "8997DF012932A889143186CDD326FD94")))
+  (fp_rect
+    (start -0.5 -0.25)
+    (end 0.5 0.25)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (fill none)
+    (layer "F.Fab"))
+  (fp_rect
+    (start -0.85 -0.4)
+    (end 0.85 0.4)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (fill none)
+    (layer "F.CrtYd")))

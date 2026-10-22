@@ -1,0 +1,75 @@
+{
+  "silkscreen_text": [
+    {
+      "text": "1",
+      "x_mm": 49.2,
+      "y_mm": 14.3,
+      "side": "top"
+    },
+    {
+      "text": "+",
+      "x_mm": 12.5,
+      "y_mm": 28.0,
+      "side": "top"
+    },
+    {
+      "text": "+",
+      "x_mm": 37.5,
+      "y_mm": 28.0,
+      "side": "top"
+    },
+    {
+      "text": "+",
+      "x_mm": 35.6,
+      "y_mm": 53.0,
+      "side": "top"
+    },
+    {
+      "text": "+",
+      "x_mm": 60.6,
+      "y_mm": 53.0,
+      "side": "top"
+    },
+    {
+      "text": "EEG32 2.1 BENCH",
+      "x_mm": 44,
+      "y_mm": 64.2,
+      "side": "top"
+    },
+    {
+      "text": "C15",
+      "x_mm": 69.8,
+      "y_mm": 29.62,
+      "side": "bottom"
+    }
+  ],
+  "pin1_circles": [
+    {
+      "reference": "U1",
+      "x_mm": 66.1,
+      "y_mm": 30.37
+    },
+    {
+      "reference": "U101",
+      "x_mm": 29.7,
+      "y_mm": 21.2
+    },
+    {
+      "reference": "U201",
+      "x_mm": 54.7,
+      "y_mm": 21.2
+    },
+    {
+      "reference": "U301",
+      "x_mm": 20.3,
+      "y_mm": 57.8
+    },
+    {
+      "reference": "U401",
+      "x_mm": 45.3,
+      "y_mm": 57.8
+    }
+  ],
+  "text_height_mm": 1,
+  "stroke_mm": 0.15
+}

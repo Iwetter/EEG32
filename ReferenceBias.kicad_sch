@@ -1,0 +1,584 @@
+(kicad_sch
+  (version 20260306)
+  (generator "eeschema")
+  (generator_version "10.0")
+  (uuid "b28dc2cb-7631-50b1-bb75-01bb327be8dd")
+  (paper "A3")
+  (title_block
+    (title "EEG32 passive | ReferenceBias")
+    (date "2026-10-01")
+    (rev "2.1-prefab-bench")
+    (comment 1 "Bench prototype; not released for fabrication or human contact"))
+  (lib_symbols
+    (symbol "EEG32:C"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0.254))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "C_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "EEG32:R"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "R"
+        (at 2.032 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "R"
+        (at 0 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at -1.778 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "R_0_1"
+        (rectangle
+          (start -1.016 -2.54)
+          (end 1.016 2.54)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "R_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no)))
+  (text "SHARED REF  /  SEPARATE BIAS"
+    (at 20 15 0)
+    (effects
+      (font
+        (size 2.7 2.7)
+        (bold yes))
+      (justify left top))
+    (uuid "123cf2d0-d92f-43c2-bd25-ba84c5e66b0b"))
+  (text "Passive common-reference montage. No local electrode buffers; no REF/BIAS short."
+    (at 20 26 0)
+    (effects
+      (font
+        (size 1.5 1.5))
+      (justify left top))
+    (uuid "d6e5fd2d-d6d9-4683-9aeb-70b54593e28b"))
+  (symbol
+    (lib_id "EEG32:R")
+    (at 101.6 63.5 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "5902e01f-ecea-55de-9875-38ea1a6d50ac")
+    (property "Reference" "R633"
+      (at 101.6 55.88 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "4.99k 1%"
+      (at 101.6 59.69 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "EEG32:R0402"
+      (at 101.6 63.5 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip/thick_film_general_purpose/rc"
+      (at 101.6 63.5 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "MPN" "RC0402FR-074K99L"
+      (at 101.6 63.5 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/f89c82ac-f7c0-5c50-9a9f-71b104f1ba5d"
+          (reference "R633")
+          (unit 1))))
+    (property "Manufacturer" "Yageo"
+      (at 101.6 63.5 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "4.99kohm; +/-1%; 62.5mW at70C; 50V max; 0402; TCR +/-100ppm/C"
+      (at 101.6 63.5 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 101.6 63.5 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 152.4 71.12 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "65d6668c-5f7f-53d1-a6fd-5310558f73b4")
+    (property "Reference" "C633"
+      (at 156.21 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "4.7nF 5% C0G 50V"
+      (at 156.21 72.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0603"
+      (at 152.4 71.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM1885C1H472JA01D"
+      (at 152.4 71.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "MPN" "GRM1885C1H472JA01D"
+      (at 152.4 71.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/f89c82ac-f7c0-5c50-9a9f-71b104f1ba5d"
+          (reference "C633")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 152.4 71.12 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "4.7nF; +/-5%; C0G; 50VDC; 0603; -55..125C"
+      (at 152.4 71.12 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 152.4 71.12 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:R")
+    (at 152.4 139.7 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "7473b69b-937a-5714-987f-de10b3c75023")
+    (property "Reference" "R634"
+      (at 152.4 132.08 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "4.99k 1%"
+      (at 152.4 135.89 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "EEG32:R0402"
+      (at 152.4 139.7 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip/thick_film_general_purpose/rc"
+      (at 152.4 139.7 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "MPN" "RC0402FR-074K99L"
+      (at 152.4 139.7 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/f89c82ac-f7c0-5c50-9a9f-71b104f1ba5d"
+          (reference "R634")
+          (unit 1))))
+    (property "Manufacturer" "Yageo"
+      (at 152.4 139.7 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "4.99kohm; +/-1%; 62.5mW at70C; 50V max; 0402; TCR +/-100ppm/C"
+      (at 152.4 139.7 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 152.4 139.7 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (wire
+    (pts
+      (xy 50.8 63.5)
+      (xy 97.79 63.5))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "28d2ec3a-4d08-4bad-9d3b-eec68803fbb5"))
+  (global_label "EEG_REF"
+    (shape passive)
+    (at 50.8 63.5 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "6d59180a-2028-469a-844e-e4add6301b2f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 50.8 63.5 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 105.41 63.5)
+      (xy 152.4 63.5))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "dce28dbb-7820-43f2-87fa-a8e4e9ac0812"))
+  (wire
+    (pts
+      (xy 152.4 63.5)
+      (xy 203.2 63.5))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1eda304e-6792-4b7d-83c9-7ff53ef211e2"))
+  (junction
+    (at 152.4 63.5)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "60eff491-82d7-479c-bbf3-3ca12597c004"))
+  (wire
+    (pts
+      (xy 152.4 63.5)
+      (xy 152.4 67.31))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "eff8cdb1-ba1d-4e6f-9584-28ba5b19603c"))
+  (wire
+    (pts
+      (xy 152.4 74.93)
+      (xy 152.4 80.01))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "046ce28e-5e13-40ce-b89c-96e0be32bcfc"))
+  (global_label "GND"
+    (shape passive)
+    (at 152.4 80.01 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "5083d789-62f2-4a61-ace6-834d80c7b1a5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 152.4 80.01 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (global_label "EEG_REF_ADC"
+    (shape passive)
+    (at 203.2 63.5 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "90588d8e-1991-4f1c-9078-0441f0b69fee")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 203.2 63.5 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 76.2 139.7)
+      (xy 148.59 139.7))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ad8b445e-a84e-43b7-bcf3-29fa062751ee"))
+  (global_label "BIAS_DRIVE"
+    (shape passive)
+    (at 76.2 139.7 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "4d73f530-bdde-4b82-b154-92d39e985e9f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 76.2 139.7 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 156.21 139.7)
+      (xy 228.6 139.7))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bc27189e-288c-4a44-a227-0200a0308aa8"))
+  (global_label "EEG_BIAS"
+    (shape passive)
+    (at 228.6 139.7 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "995f791c-ae69-453c-b315-c9184d60f469")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 228.6 139.7 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (text "J601.33 / passive REF"
+    (at 35 45 0)
+    (effects
+      (font
+        (size 1.5 1.5)
+        (bold yes))
+      (justify left top))
+    (uuid "66f87da3-2ad3-4c64-b86f-8bfafd599ac8"))
+  (text "U101/U201/U301/U401: pin 17 / SRB1\nMISC1.SRB1 = 1; SRB2 remains unused.\nTP7 measures the filtered shared reference."
+    (at 242 57 0)
+    (effects
+      (font
+        (size 1.3 1.3))
+      (justify left top))
+    (uuid "8575892a-6f1e-4ddf-ba03-f87f1497cc77"))
+  (text "Unbuffered shared REF retained: validate aggregate input loading and lead-off configuration for 32 channels.\nOne common REF filter; do not add 32 parallel filter capacitors to this electrode.\nTI EVM default directly selects REF_ELEC to SRB1 (JP8); its optional buffer is not populated here."
+    (at 20 98 0)
+    (effects
+      (font
+        (size 1.3 1.3))
+      (justify left top))
+    (uuid "ab9b8426-ce3e-4a63-9d04-6d75e8f99fa1"))
+  (text "U101 BIASOUT, pin 63\nExisting 1M || 1nF feedback\nremains before R634."
+    (at 25 156 0)
+    (effects
+      (font
+        (size 1.3 1.3))
+      (justify left top))
+    (uuid "56ce3dd4-f0fb-4395-a9df-2aed7f8e9c31"))
+  (text "J601.34 / separate BIAS electrode\n4.99k is TI EVM R10 value; it is not\na validated patient-current limiter."
+    (at 215 156 0)
+    (effects
+      (font
+        (size 1.3 1.3))
+      (justify left top))
+    (uuid "eec86a79-0e17-4761-bdc1-bf32878ba5a8"))
+  (text "FIRMWARE + VALIDATION"
+    (at 20 189 0)
+    (effects
+      (font
+        (size 1.7 1.7)
+        (bold yes))
+      (justify left top))
+    (uuid "a10025d9-9b5e-4ca2-8eb3-1c08c6415897"))
+  (text "Enable only U101 BIAS amplifier; slave BIASOUT pins remain NC. Preserve shared BIAS_SUM and BIASIN.\nSelect BIAS sense channels deliberately. Validate stability with electrode/cable impedance and disconnect faults.\nAt +5VA, internal BIASREF targets mid-supply. REF is neither GND nor the ADS VREFP conversion reference.\nCommon clock + shared START synchronize all four devices. Configure identical 500 SPS rates.\nLead-off excitation and gain/DC-offset range require bench verification with passive electrode models."
+    (at 20 201 0)
+    (effects
+      (font
+        (size 1.35 1.35))
+      (justify left top))
+    (uuid "a28c8b46-275b-4f79-b2a8-cac8f1d8aac9"))
+  (text "PROTECTION RELEASE HOLD: RC networks reduce input current/EMI but do not establish ESD, defibrillator,\nisolation, leakage or single-fault safety. No human connection until supervisor/electrical safety validation."
+    (at 20 251 0)
+    (effects
+      (font
+        (size 1.35 1.35)
+        (bold yes))
+      (justify left top))
+    (uuid "dbb2f419-3831-4223-88df-89f8488c3c0b")))

@@ -1,0 +1,120 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T13:07:59",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930",
+            "violations": []
+        },
+        {
+            "path": "/CH01-CH08 / clock and BIAS master/",
+            "uuid_path": "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/ca9652a3-1619-535b-bfd1-702b5831ba12",
+            "violations": []
+        },
+        {
+            "path": "/CH09-CH16 / synchronous AFE/",
+            "uuid_path": "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169",
+            "violations": []
+        },
+        {
+            "path": "/CH17-CH24 / synchronous AFE/",
+            "uuid_path": "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/b4fb1173-fa25-5afa-afd9-7246d48810f4",
+            "violations": []
+        },
+        {
+            "path": "/CH25-CH32 / synchronous AFE/",
+            "uuid_path": "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/19b76272-dd1a-59bb-bdf7-e03ebcd92607",
+            "violations": []
+        },
+        {
+            "path": "/nRF52832 / BLE / synchronized acquisition control/",
+            "uuid_path": "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/dba4b3aa-9566-5b4b-b183-58ad1f8354de",
+            "violations": [
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 37 [P0.25, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.016
+                            },
+                            "uuid": "d32462e0-a6b4-491f-a011-1ee97b49d08d"
+                        },
+                        {
+                            "description": "Symbol #FLG02 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 0.8382,
+                                "y": 0.889
+                            },
+                            "uuid": "94029771-7b7d-4b72-b1bf-c8e9444b6486"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 38 [P0.26, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.0414
+                            },
+                            "uuid": "b79a771b-301f-4a09-8194-6de5807d6d7f"
+                        },
+                        {
+                            "description": "Symbol #FLG02 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 0.8382,
+                                "y": 0.889
+                            },
+                            "uuid": "94029771-7b7d-4b72-b1bf-c8e9444b6486"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/Battery input / 3.3V LDO / 5V boost / REF and BIAS access/",
+            "uuid_path": "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6214f5d1-86e9-5220-96cb-6008cccc3d94",
+            "violations": []
+        },
+        {
+            "path": "/PassiveInputs/",
+            "uuid_path": "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/ecedbb15-76ea-5a83-9c76-e5890cfdcfd2",
+            "violations": []
+        },
+        {
+            "path": "/ReferenceBias/",
+            "uuid_path": "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/f89c82ac-f7c0-5c50-9a9f-71b104f1ba5d",
+            "violations": []
+        }
+    ],
+    "source": "EEG32.kicad_sch"
+}

@@ -1,0 +1,10 @@
+{
+  "checkpoint": "C:/example-user\\Documents\\Codex\\2026-09-14\\computer-plugin-computer-use-openai-bundled-2\\outputs\\EEG32\\checkpoints\\EEG32-2.1-prefab-20261001",
+  "archive": "C:/example-user\\Documents\\Codex\\2026-09-14\\computer-plugin-computer-use-openai-bundled-2\\outputs\\EEG32\\EEG32-passive-prefab-2.1-20261001.zip",
+  "archive_sha256": "f972d596a627e23f019523dec4cb1371567a5e8f8b06687924d0234266770e6e",
+  "bytes": 17009506,
+  "files": 112,
+  "root_source_hashes_match_checkpoint": true,
+  "zip_hashes_verified": true,
+  "broken_document_links": []
+}

@@ -1,0 +1,27 @@
+{
+  "revision": "2.1-prefab-bench",
+  "checked_from_own_checkpoint_directory": true,
+  "source_hashes_identical_to_working_project": true,
+  "counts": {
+    "ERC_errors": 0,
+    "ERC_warnings": 2,
+    "DRC_errors": 0,
+    "DRC_warnings": 0,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "ERC_warning_types": {
+      "pin_to_pin": 2
+    },
+    "ERC_ignored": [
+      "four_way_junction",
+      "simulation_model_issue",
+      "single_global_label"
+    ],
+    "DRC_ignored": [],
+    "DRC_exclusions": [],
+    "ERC_exclusions": []
+  },
+  "preservation_checks": 9639,
+  "preservation_issues": [],
+  "ffc_40_circuit_geometry_contract_passed": true
+}

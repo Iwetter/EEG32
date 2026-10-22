@@ -1,0 +1,6143 @@
+(kicad_symbol_lib
+  (version 20250114)
+  (generator kicad_symbol_editor)
+  (symbol "MOLX-503480-1700"
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "MOLX-503480-1700_1_0"
+      (polyline
+        (pts
+          (xy -5.08 -2.54)
+          (xy -3.302 -2.54))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -5.08)
+          (xy -3.302 -5.08))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -7.62)
+          (xy -3.302 -7.62))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -10.16)
+          (xy -3.302 -10.16))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -12.7)
+          (xy -3.302 -12.7))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -15.24)
+          (xy -3.302 -15.24))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -17.78)
+          (xy -3.302 -17.78))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -20.32)
+          (xy -3.302 -20.32))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -22.86)
+          (xy -3.302 -22.86))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -25.4)
+          (xy -3.302 -25.4))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -27.94)
+          (xy -3.302 -27.94))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -30.48)
+          (xy -3.302 -30.48))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -33.02)
+          (xy -3.302 -33.02))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -35.56)
+          (xy -3.302 -35.56))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -38.1)
+          (xy -3.302 -38.1))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -40.64)
+          (xy -3.302 -40.64))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -5.08 -43.18)
+          (xy -3.302 -43.18))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -2.54)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -5.08)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -7.62)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -10.16)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -12.7)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -15.24)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -17.78)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -20.32)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -22.86)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -25.4)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -27.94)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -30.48)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -33.02)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -35.56)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -38.1)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -40.64)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (circle
+        (center -2.54 -43.18)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (rectangle
+        (start 0 0)
+        (end -5.08 -53.34)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at -10.16 -2.54 0)
+        (length 5.08)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -5.08 0)
+        (length 5.08)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -7.62 0)
+        (length 5.08)
+        (name "3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -10.16 0)
+        (length 5.08)
+        (name "4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -12.7 0)
+        (length 5.08)
+        (name "5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -15.24 0)
+        (length 5.08)
+        (name "6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -17.78 0)
+        (length 5.08)
+        (name "7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -20.32 0)
+        (length 5.08)
+        (name "8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -22.86 0)
+        (length 5.08)
+        (name "9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -25.4 0)
+        (length 5.08)
+        (name "10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -27.94 0)
+        (length 5.08)
+        (name "11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -30.48 0)
+        (length 5.08)
+        (name "12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -33.02 0)
+        (length 5.08)
+        (name "13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -35.56 0)
+        (length 5.08)
+        (name "14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -38.1 0)
+        (length 5.08)
+        (name "15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -40.64 0)
+        (length 5.08)
+        (name "16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -43.18 0)
+        (length 5.08)
+        (name "17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -48.26 0)
+        (length 5.08)
+        (name "MP1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "MP1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 -50.8 0)
+        (length 5.08)
+        (name "MP2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "MP2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "GND_POWER_GROUND"
+    (power global)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "#PWR"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "GND"
+      (at 0 -6.35 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "GND_POWER_GROUND_0_0"
+      (polyline
+        (pts
+          (xy -2.54 -2.54)
+          (xy 2.54 -2.54))
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.778 -3.302)
+          (xy 1.778 -3.302))
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.016 -4.064)
+          (xy 1.016 -4.064))
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.254 -4.826)
+          (xy 0.254 -4.826))
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 -2.54))
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type none)))
+      (pin power_in line
+        (at 0 0 0)
+        (length 0)
+        (hide yes)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number ""
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "ADS1299IPAG_8CH"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "ADS1299IPAG_8CH_1_0"
+      (rectangle
+        (start 0 -30.48)
+        (end -76.2 0)
+        (stroke
+          (width 0.0254)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background)))
+      (pin input line
+        (at -40.64 -35.56 90)
+        (length 5.08)
+        (name "IN8N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -38.1 -35.56 90)
+        (length 5.08)
+        (name "IN8P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -35.56 -35.56 90)
+        (length 5.08)
+        (name "IN7N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -33.02 -35.56 90)
+        (length 5.08)
+        (name "IN7P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -30.48 -35.56 90)
+        (length 5.08)
+        (name "IN6N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -27.94 -35.56 90)
+        (length 5.08)
+        (name "IN6P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -25.4 -35.56 90)
+        (length 5.08)
+        (name "IN5N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -35.56 90)
+        (length 5.08)
+        (name "IN5P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -20.32 -35.56 90)
+        (length 5.08)
+        (name "IN4N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 -35.56 90)
+        (length 5.08)
+        (name "IN4P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -15.24 -35.56 90)
+        (length 5.08)
+        (name "IN3N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 -35.56 90)
+        (length 5.08)
+        (name "IN3P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 -35.56 90)
+        (length 5.08)
+        (name "IN2N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -7.62 -35.56 90)
+        (length 5.08)
+        (name "IN2P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -5.08 -35.56 90)
+        (length 5.08)
+        (name "IN1N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -2.54 -35.56 90)
+        (length 5.08)
+        (name "IN1P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -50.8 -35.56 90)
+        (length 5.08)
+        (name "SRB1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -53.34 -35.56 90)
+        (length 5.08)
+        (name "SRB2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -71.12 -35.56 90)
+        (length 5.08)
+        (name "VREFP"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -73.66 -35.56 90)
+        (length 5.08)
+        (name "VREFN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -73.66 5.08 270)
+        (length 5.08)
+        (name "VCAP4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -58.42 5.08 270)
+        (length 5.08)
+        (name "NC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -66.04 5.08 270)
+        (length 5.08)
+        (name "VCAP1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -60.96 5.08 270)
+        (length 5.08)
+        (name "NC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -68.58 5.08 270)
+        (length 5.08)
+        (name "VCAP2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -5.08 5.08 270)
+        (length 5.08)
+        (name "DIN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -43.18 5.08 270)
+        (length 5.08)
+        (name "~{PWDN}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 5.08 270)
+        (length 5.08)
+        (name "~{RESET}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 5.08 270)
+        (length 5.08)
+        (name "CLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -38.1 5.08 270)
+        (length 5.08)
+        (name "START"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 5.08 270)
+        (length 5.08)
+        (name "~{CS}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input clock
+        (at -2.54 5.08 270)
+        (length 5.08)
+        (name "SCLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -45.72 -35.56 90)
+        (length 5.08)
+        (name "DAISY_IN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "41"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -25.4 5.08 270)
+        (length 5.08)
+        (name "GPIO1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "42"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin tri_state line
+        (at -7.62 5.08 270)
+        (length 5.08)
+        (name "DOUT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "43"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -27.94 5.08 270)
+        (length 5.08)
+        (name "GPIO2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "44"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -30.48 5.08 270)
+        (length 5.08)
+        (name "GPIO3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "45"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -33.02 5.08 270)
+        (length 5.08)
+        (name "GPIO4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "46"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -12.7 5.08 270)
+        (length 5.08)
+        (name "~{DRDY}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "47"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -20.32 5.08 270)
+        (length 5.08)
+        (name "CLKSEL"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "52"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -71.12 5.08 270)
+        (length 5.08)
+        (name "VCAP3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "55"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -58.42 -35.56 90)
+        (length 5.08)
+        (name "BIASREF"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "60"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -60.96 -35.56 90)
+        (length 5.08)
+        (name "BIASINV"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "61"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -66.04 -35.56 90)
+        (length 5.08)
+        (name "BIASIN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "62"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -63.5 -35.56 90)
+        (length 5.08)
+        (name "BIASOUT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "63"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -50.8 5.08 270)
+        (length 5.08)
+        (name "RESERVED"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "64"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (symbol "ADS1299IPAG_8CH_2_0"
+      (rectangle
+        (start 0 -20.32)
+        (end -33.02 0)
+        (stroke
+          (width 0.0254)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background)))
+      (pin power_in line
+        (at -7.62 5.08 270)
+        (length 5.08)
+        (name "AVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -7.62 -25.4 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -10.16 5.08 270)
+        (length 5.08)
+        (name "AVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -12.7 5.08 270)
+        (length 5.08)
+        (name "AVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -10.16 -25.4 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -22.86 -25.4 90)
+        (length 5.08)
+        (name "RESV1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -12.7 -25.4 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -25.4 -25.4 90)
+        (length 5.08)
+        (name "DGND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -27.94 5.08 270)
+        (length 5.08)
+        (name "DVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "48"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -27.94 -25.4 90)
+        (length 5.08)
+        (name "DGND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "49"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -30.48 5.08 270)
+        (length 5.08)
+        (name "DVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "50"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -30.48 -25.4 90)
+        (length 5.08)
+        (name "DGND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "51"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 -25.4 90)
+        (length 5.08)
+        (name "AVSS1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "53"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 5.08 270)
+        (length 5.08)
+        (name "AVDD1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "54"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -15.24 5.08 270)
+        (length 5.08)
+        (name "AVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "56"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -15.24 -25.4 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "57"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -17.78 -25.4 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "58"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -17.78 5.08 270)
+        (length 5.08)
+        (name "AVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "59"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0402(1005)"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0402(1005)_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0603(1608)"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0603(1608)_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "R-0402(1005)"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "R-0402(1005)_1_0"
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.556 0)
+          (xy -3.81 -0.508)
+          (xy -4.318 0.508)
+          (xy -4.826 -0.508)
+          (xy -5.334 0.508)
+          (xy -5.842 -0.508)
+          (xy -6.35 0.508)
+          (xy -6.604 0)
+          (xy -7.62 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "VCC_BAR"
+    (power global)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "#PWR"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "VCC"
+      (at 0 -3.81 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "VCC_BAR_0_0"
+      (polyline
+        (pts
+          (xy -1.27 -2.54)
+          (xy 1.27 -2.54))
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 -2.54))
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type none)))
+      (pin power_in line
+        (at 0 0 0)
+        (length 0)
+        (hide yes)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number ""
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0402(1005)_1"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0402(1005)_1_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0402(1005)_2"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0402(1005)_2_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0402(1005)_3"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0402(1005)_3_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0402(1005)_4"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0402(1005)_4_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0402(1005)_5"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0402(1005)_5_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0402(1005)_6"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0402(1005)_6_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0402(1005)_7"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0402(1005)_7_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C-0402(1005)_8"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C-0402(1005)_8_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 180)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "2450AT18B100"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "2450AT18B100_1_0"
+      (polyline
+        (pts
+          (xy 7.62 2.54)
+          (xy 5.08 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 7.62 2.54)
+          (xy 7.62 -2.54))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 7.62 0)
+          (xy 5.08 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 7.62 -2.54)
+          (xy 5.08 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 0)
+        (length 5.08)
+        (name "A"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "2450FM07A0029"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "2450FM07A0029_1_0"
+      (polyline
+        (pts
+          (xy -5.08 0)
+          (xy -4.318 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -4.318 -2.032)
+          (xy -4.318 2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -3.302 2.032)
+          (xy -3.302 -2.032))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -3.302 0))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy 0 0)
+          (xy 0 -2.54)
+          (xy 0 2.54))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -2.54)
+        (mid 0.898 -2.912)
+        (end 1.27 -3.81)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -3.81)
+        (mid 0.898 -4.708)
+        (end 0 -5.08)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -5.08)
+        (mid 0.898 -5.452)
+        (end 1.27 -6.35)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -6.35)
+        (mid 0.898 -7.248)
+        (end 0 -7.62)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -7.62)
+        (mid 0.898 -7.992)
+        (end 1.27 -8.89)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -8.89)
+        (mid 0.898 -9.788)
+        (end 0 -10.16)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -10.16)
+        (mid 0.898 -10.532)
+        (end 1.27 -11.43)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -11.43)
+        (mid 0.898 -12.328)
+        (end 0 -12.7)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (rectangle
+        (start 2.54 2.54)
+        (end -7.62 -15.24)
+        (stroke
+          (width 0.0254)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background)))
+      (pin passive line
+        (at 0 5.08 270)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -17.78 90)
+        (length 5.08)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 0 0)
+        (length 5.08)
+        (name "3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "I-0402(1005)"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "I-0402(1005)_1_0"
+      (arc
+        (start 0 -2.54)
+        (mid 0.898 -2.912)
+        (end 1.27 -3.81)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -3.81)
+        (mid 0.898 -4.708)
+        (end 0 -5.08)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -5.08)
+        (mid 0.898 -5.452)
+        (end 1.27 -6.35)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -6.35)
+        (mid 0.898 -7.248)
+        (end 0 -7.62)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -7.62)
+        (mid 0.898 -7.992)
+        (end 1.27 -8.89)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -8.89)
+        (mid 0.898 -9.788)
+        (end 0 -10.16)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -10.16)
+        (mid 0.898 -10.532)
+        (end 1.27 -11.43)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -11.43)
+        (mid 0.898 -12.328)
+        (end 0 -12.7)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 270)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -15.24 90)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "NRF52832-QFAA-R"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "NRF52832-QFAA-R_1_0"
+      (rectangle
+        (start 0 -35.56)
+        (end -99.06 0)
+        (stroke
+          (width 0.0254)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background)))
+      (pin passive line
+        (at -53.34 -40.64 90)
+        (length 5.08)
+        (name "DEC1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -2.54 5.08 270)
+        (length 5.08)
+        (name "P0.00/XL1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -5.08 5.08 270)
+        (length 5.08)
+        (name "P0.01/XL2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -7.62 5.08 270)
+        (length 5.08)
+        (name "P0.02/AIN0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -10.16 5.08 270)
+        (length 5.08)
+        (name "P0.03/AIN1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 5.08 270)
+        (length 5.08)
+        (name "P0.04/AIN2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.24 5.08 270)
+        (length 5.08)
+        (name "P0.05/AIN3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 5.08 270)
+        (length 5.08)
+        (name "P0.06"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -20.32 5.08 270)
+        (length 5.08)
+        (name "P0.07"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -22.86 5.08 270)
+        (length 5.08)
+        (name "P0.08"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -25.4 5.08 270)
+        (length 5.08)
+        (name "P0.09/NFC1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -27.94 5.08 270)
+        (length 5.08)
+        (name "P0.10/NFC2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -91.44 5.08 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -30.48 5.08 270)
+        (length 5.08)
+        (name "P0.11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -33.02 5.08 270)
+        (length 5.08)
+        (name "P0.12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -35.56 5.08 270)
+        (length 5.08)
+        (name "P0.13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -38.1 5.08 270)
+        (length 5.08)
+        (name "P0.14/TRACEDATA[3]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 5.08 270)
+        (length 5.08)
+        (name "P0.15/TRACEDATA[2]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -43.18 5.08 270)
+        (length 5.08)
+        (name "P0.16/TRACEDATA[1]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -45.72 5.08 270)
+        (length 5.08)
+        (name "P0.17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -48.26 5.08 270)
+        (length 5.08)
+        (name "P0.18/TRACEDATA[[0]/SWO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -50.8 5.08 270)
+        (length 5.08)
+        (name "P0.19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -53.34 5.08 270)
+        (length 5.08)
+        (name "P0.20/TRACECLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -55.88 5.08 270)
+        (length 5.08)
+        (name "P0.21/nRESET"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -2.54 -40.64 90)
+        (length 5.08)
+        (name "SWDCLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -7.62 -40.64 90)
+        (length 5.08)
+        (name "SWDIO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -58.42 5.08 270)
+        (length 5.08)
+        (name "P0.22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -60.96 5.08 270)
+        (length 5.08)
+        (name "P0.23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -63.5 5.08 270)
+        (length 5.08)
+        (name "P0.24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 -40.64 90)
+        (length 5.08)
+        (name "ANT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -93.98 -40.64 90)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -58.42 -40.64 90)
+        (length 5.08)
+        (name "DEC2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -63.5 -40.64 90)
+        (length 5.08)
+        (name "DEC3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input clock
+        (at -25.4 -40.64 90)
+        (length 5.08)
+        (name "XC1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -30.48 -40.64 90)
+        (length 5.08)
+        (name "XC2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -93.98 5.08 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 5.08 270)
+        (length 5.08)
+        (name "P0.25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -68.58 5.08 270)
+        (length 5.08)
+        (name "P0.26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -71.12 5.08 270)
+        (length 5.08)
+        (name "P0.27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -73.66 5.08 270)
+        (length 5.08)
+        (name "P0.28/AN4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -76.2 5.08 270)
+        (length 5.08)
+        (name "P0.29/AN5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "41"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -78.74 5.08 270)
+        (length 5.08)
+        (name "P0.30/AN6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "42"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -81.28 5.08 270)
+        (length 5.08)
+        (name "P0.31/AN7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "43"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -81.28 -40.64 90)
+        (length 5.08)
+        (name "NC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "44"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -96.52 -40.64 90)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "45"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -68.58 -40.64 90)
+        (length 5.08)
+        (name "DEC4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "46"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at -86.36 5.08 270)
+        (length 5.08)
+        (name "DCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "47"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -96.52 5.08 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "48"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -88.9 -40.64 90)
+        (length 5.08)
+        (name "EP"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "49"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "ECS-.327-12.5-12-TR"
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "ECS-.327-12.5-12-TR_1_0"
+      (polyline
+        (pts
+          (xy -2.54 -5.08)
+          (xy -2.54 -2.54))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0 -1.27)
+          (xy 0 -0.762))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0 -6.35)
+          (xy 0 -6.604))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.032 -1.27)
+          (xy -2.032 -1.27))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.032 -6.35)
+          (xy -2.032 -6.35))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.54 -2.54)
+          (xy -2.54 -2.54))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.54 -2.54)
+          (xy 2.54 -5.08))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.54 -5.08)
+          (xy -2.54 -5.08))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 270)
+        (length 1.27)
+        (name "In/Out"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -7.62 90)
+        (length 1.27)
+        (name "Out/In"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "ECS-320-8-37CKM"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "ECS-320-8-37CKM_1_0"
+      (polyline
+        (pts
+          (xy -2.54 -10.16)
+          (xy -2.54 -7.62))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0 -1.016)
+          (xy 0 -6.35))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0 -11.43)
+          (xy 0 -16.764))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.032 -6.35)
+          (xy -2.032 -6.35))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.032 -11.43)
+          (xy -2.032 -11.43))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.54 -7.62)
+          (xy -2.54 -7.62))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.54 -7.62)
+          (xy 2.54 -10.16))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 2.54 -10.16)
+          (xy -2.54 -10.16))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (rectangle
+        (start 5.08 -15.24)
+        (end -12.7 -2.54)
+        (stroke
+          (width 0)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at 0 0 270)
+        (length 1.27)
+        (name "In/Out"
+          (effects
+            (font
+              (size 0 0))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -7.62 -20.32 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 0 -17.78 90)
+        (length 1.27)
+        (name "Out/In"
+          (effects
+            (font
+              (size 0 0))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -10.16 -20.32 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "Header 2"
+    (pin_numbers
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "Header 2_1_0"
+      (rectangle
+        (start 0 -7.62)
+        (end -7.62 0)
+        (stroke
+          (width 0.0254)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background)))
+      (pin passive line
+        (at -2.54 5.08 270)
+        (length 5.08)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -5.08 5.08 270)
+        (length 5.08)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "I-0603(1608)"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "I-0603(1608)_1_0"
+      (arc
+        (start 0 -2.54)
+        (mid 0.898 -2.912)
+        (end 1.27 -3.81)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -3.81)
+        (mid 0.898 -4.708)
+        (end 0 -5.08)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -5.08)
+        (mid 0.898 -5.452)
+        (end 1.27 -6.35)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -6.35)
+        (mid 0.898 -7.248)
+        (end 0 -7.62)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -7.62)
+        (mid 0.898 -7.992)
+        (end 1.27 -8.89)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -8.89)
+        (mid 0.898 -9.788)
+        (end 0 -10.16)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -10.16)
+        (mid 0.898 -10.532)
+        (end 1.27 -11.43)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -11.43)
+        (mid 0.898 -12.328)
+        (end 0 -12.7)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 270)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -15.24 90)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "I-0402(1005)_1"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "I-0402(1005)_1_1_0"
+      (arc
+        (start 0 -2.54)
+        (mid 0.898 -2.912)
+        (end 1.27 -3.81)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -3.81)
+        (mid 0.898 -4.708)
+        (end 0 -5.08)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -5.08)
+        (mid 0.898 -5.452)
+        (end 1.27 -6.35)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -6.35)
+        (mid 0.898 -7.248)
+        (end 0 -7.62)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -7.62)
+        (mid 0.898 -7.992)
+        (end 1.27 -8.89)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -8.89)
+        (mid 0.898 -9.788)
+        (end 0 -10.16)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 0 -10.16)
+        (mid 0.898 -10.532)
+        (end 1.27 -11.43)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 1.27 -11.43)
+        (mid 0.898 -12.328)
+        (end 0 -12.7)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (pin passive line
+        (at 0 0 270)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -15.24 90)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "BATTERY-170mAh"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "BATTERY-170mAh_1_0"
+      (polyline
+        (pts
+          (xy 5.08 -7.62)
+          (xy 5.08 -12.7))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 5.08 -10.16)
+          (xy 0 -10.16))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 7.62 -5.08)
+          (xy 7.62 -15.24))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 10.16 -7.62)
+          (xy 10.16 -12.7))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 12.7 -2.54)
+          (xy 12.7 -17.78))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 12.7 -10.16)
+          (xy 17.78 -10.16))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (rectangle
+        (start 15.24 -20.32)
+        (end 2.54 0)
+        (stroke
+          (width 0.0254)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background))))
+    (embedded_fonts no))
+  (symbol "BATTERY-40mAh"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "BATTERY-40mAh_1_0"
+      (polyline
+        (pts
+          (xy 5.08 -7.62)
+          (xy 5.08 -12.7))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 5.08 -10.16)
+          (xy 0 -10.16))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 7.62 -5.08)
+          (xy 7.62 -15.24))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 10.16 -7.62)
+          (xy 10.16 -12.7))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 12.7 -2.54)
+          (xy 12.7 -17.78))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 12.7 -10.16)
+          (xy 17.78 -10.16))
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (rectangle
+        (start 15.24 -20.32)
+        (end 2.54 0)
+        (stroke
+          (width 0.0254)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background))))
+    (embedded_fonts no))
+  (symbol "WIRELESS_CHARGING-PHYSICAL_MODEL"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "WIRELESS_CHARGING-PHYSICAL_MODEL_1_0"
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 -12.7)
+          (xy 15.24 -12.7)
+          (xy 15.24 0)
+          (xy 0 0))
+        (stroke
+          (width 0)
+          (type solid)
+          (color 255 0 0 1))
+        (fill
+          (type none)))
+      (arc
+        (start 5.072 -2.54)
+        (mid 3.81 -3.802)
+        (end 2.548 -2.54)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 7.612 -2.54)
+        (mid 6.35 -3.802)
+        (end 5.088 -2.54)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 10.152 -2.54)
+        (mid 8.89 -3.802)
+        (end 7.628 -2.54)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (arc
+        (start 12.692 -2.54)
+        (mid 11.43 -3.802)
+        (end 10.168 -2.54)
+        (stroke
+          (width 0)
+          (type solid))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 12.7 -5.08)
+          (xy 2.54 -5.08))
+        (stroke
+          (width 0)
+          (type solid)
+          (color 255 0 0 1))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 12.7 -7.62)
+          (xy 2.54 -7.62))
+        (stroke
+          (width 0)
+          (type solid)
+          (color 255 0 0 1))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 12.7 -10.16)
+          (xy 2.54 -10.16))
+        (stroke
+          (width 0)
+          (type solid)
+          (color 255 0 0 1))
+        (fill
+          (type none))))
+    (embedded_fonts no))
+  (symbol "S-1318D33-A4T2U4"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "S-1318D33-A4T2U4_1_0"
+      (rectangle
+        (start 15.24 -17.78)
+        (end 0 0)
+        (stroke
+          (width 0.0254)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background)))
+      (pin power_out line
+        (at 12.7 7.62 270)
+        (length 7.62)
+        (name "VOUT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 7.62 7.62 270)
+        (length 7.62)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 2.54 7.62 270)
+        (length 7.62)
+        (name "EN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 -25.4 90)
+        (length 7.62)
+        (name "VIN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 12.7 -25.4 90)
+        (length 7.62)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "XC9140A501MR-G"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "XC9140A501MR-G_1_0"
+      (rectangle
+        (start 2.54 -27.94)
+        (end -12.7 -5.08)
+        (stroke
+          (width 0)
+          (type solid)
+          (color 128 0 0 1))
+        (fill
+          (type background)))
+      (pin input line
+        (at 0 0 270)
+        (length 5.08)
+        (name "CE"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -5.08 0 270)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in clock
+        (at -10.16 0 270)
+        (length 5.08)
+        (name "VBAT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at -10.16 -33.02 90)
+        (length 5.08)
+        (name "VOUT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 0 -33.02 90)
+        (length 5.08)
+        (name "LX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "R"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (offset 0))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "R"
+      (at 2.032 0 90)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "R"
+      (at 0 0 90)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at -1.778 0 90)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "R_0_1"
+      (rectangle
+        (start -1.016 -2.54)
+        (end 1.016 2.54)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol "R_1_1"
+      (pin passive line
+        (at 0 3.81 270)
+        (length 1.27)
+        (name ""
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -3.81 90)
+        (length 1.27)
+        (name ""
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (offset 0.254))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "C"
+      (at 0.635 2.54 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "C"
+      (at 0.635 -2.54 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" ""
+      (at 0.9652 -3.81 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C_0_1"
+      (polyline
+        (pts
+          (xy -2.032 0.762)
+          (xy 2.032 0.762))
+        (stroke
+          (width 0.508)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -2.032 -0.762)
+          (xy 2.032 -0.762))
+        (stroke
+          (width 0.508)
+          (type default))
+        (fill
+          (type none))))
+    (symbol "C_1_1"
+      (pin passive line
+        (at 0 3.81 270)
+        (length 2.794)
+        (name ""
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -3.81 90)
+        (length 2.794)
+        (name ""
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "C_Polarized"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (offset 0.254))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "C"
+      (at 0.635 2.54 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "C_Polarized"
+      (at 0.635 -2.54 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" ""
+      (at 0.9652 -3.81 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "C_Polarized_0_1"
+      (rectangle
+        (start -2.286 0.508)
+        (end 2.286 1.016)
+        (stroke
+          (width 0)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.778 2.286)
+          (xy -0.762 2.286))
+        (stroke
+          (width 0)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.27 2.794)
+          (xy -1.27 1.778))
+        (stroke
+          (width 0)
+          (type default))
+        (fill
+          (type none)))
+      (rectangle
+        (start 2.286 -0.508)
+        (end -2.286 -1.016)
+        (stroke
+          (width 0)
+          (type default))
+        (fill
+          (type outline))))
+    (symbol "C_Polarized_1_1"
+      (pin passive line
+        (at 0 3.81 270)
+        (length 2.794)
+        (name ""
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -3.81 90)
+        (length 2.794)
+        (name ""
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "TestPoint"
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (offset 0.762)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "TP"
+      (at 0 6.858 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "TestPoint"
+      (at 0 5.08 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 5.08 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 5.08 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "TestPoint_0_1"
+      (circle
+        (center 0 3.302)
+        (radius 0.762)
+        (stroke
+          (width 0)
+          (type default))
+        (fill
+          (type none))))
+    (symbol "TestPoint_1_1"
+      (pin passive line
+        (at 0 0 90)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "PWR_FLAG"
+    (power global)
+    (pin_numbers
+      (hide yes))
+    (pin_names
+      (offset 0)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "#FLG"
+      (at 0 1.905 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "PWR_FLAG"
+      (at 0 3.81 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "PWR_FLAG_0_0"
+      (pin power_out line
+        (at 0 0 90)
+        (length 0)
+        (name ""
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (symbol "PWR_FLAG_0_1"
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 1.27)
+          (xy -1.016 1.905)
+          (xy 0 2.54)
+          (xy 1.016 1.905)
+          (xy 0 1.27))
+        (stroke
+          (width 0)
+          (type default))
+        (fill
+          (type none))))
+    (embedded_fonts no))
+  (symbol "ActiveArrayPowerREF"
+    (pin_names
+      (offset 1.016)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (property "Reference" "J"
+      (at 0 5.08 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "Conn_01x03_MountingPin"
+      (at 1.27 -5.08 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "ki_keywords" "connector"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "ki_fp_filters" "*JST_GH_BM03B*"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol "ActiveArrayPowerREF_1_1"
+      (rectangle
+        (start -1.27 3.81)
+        (end 1.27 -3.81)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background)))
+      (rectangle
+        (start -1.27 2.667)
+        (end 0 2.413)
+        (stroke
+          (width 0.1524)
+          (type default))
+        (fill
+          (type none)))
+      (rectangle
+        (start -1.27 0.127)
+        (end 0 -0.127)
+        (stroke
+          (width 0.1524)
+          (type default))
+        (fill
+          (type none)))
+      (rectangle
+        (start -1.27 -2.413)
+        (end 0 -2.667)
+        (stroke
+          (width 0.1524)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.016 -4.572)
+          (xy 1.016 -4.572))
+        (stroke
+          (width 0.1524)
+          (type default))
+        (fill
+          (type none)))
+      (text "Mounting"
+        (at 0 -4.191 0)
+        (effects
+          (font
+            (size 0.381 0.381))))
+      (pin passive line
+        (at -5.08 2.54 0)
+        (length 3.81)
+        (name "Pin_1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -5.08 0 0)
+        (length 3.81)
+        (name "Pin_2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -5.08 -2.54 0)
+        (length 3.81)
+        (name "Pin_3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -7.62 90)
+        (length 3.048)
+        (name "MountPin"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "MP"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol "PassiveFFC40"
+    (pin_names
+      (offset 1.016)
+      (hide yes))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "J"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Value" "503480-4000"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Footprint" "EEG32:Molex_503480-4000_1x40_P0.50mm_Horizontal"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "ki_fp_filters" "Molex_503480-4000*"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (symbol "PassiveFFC40_1_1"
+      (rectangle
+        (start -10.16 50.8)
+        (end 10.16 -50.8)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background)))
+      (pin passive line
+        (at -15.24 49.53 0)
+        (length 5.08)
+        (name "1"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 46.99 0)
+        (length 5.08)
+        (name "2"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 44.45 0)
+        (length 5.08)
+        (name "3"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 41.91 0)
+        (length 5.08)
+        (name "4"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 39.37 0)
+        (length 5.08)
+        (name "5"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 36.83 0)
+        (length 5.08)
+        (name "6"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 34.29 0)
+        (length 5.08)
+        (name "7"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 31.75 0)
+        (length 5.08)
+        (name "8"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 29.21 0)
+        (length 5.08)
+        (name "9"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 26.67 0)
+        (length 5.08)
+        (name "10"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 24.13 0)
+        (length 5.08)
+        (name "11"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 21.59 0)
+        (length 5.08)
+        (name "12"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 19.05 0)
+        (length 5.08)
+        (name "13"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 16.51 0)
+        (length 5.08)
+        (name "14"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 13.97 0)
+        (length 5.08)
+        (name "15"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 11.43 0)
+        (length 5.08)
+        (name "16"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 8.89 0)
+        (length 5.08)
+        (name "17"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 6.35 0)
+        (length 5.08)
+        (name "18"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 3.81 0)
+        (length 5.08)
+        (name "19"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 1.27 0)
+        (length 5.08)
+        (name "20"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -1.27 0)
+        (length 5.08)
+        (name "21"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -3.81 0)
+        (length 5.08)
+        (name "22"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -6.35 0)
+        (length 5.08)
+        (name "23"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -8.89 0)
+        (length 5.08)
+        (name "24"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -11.43 0)
+        (length 5.08)
+        (name "25"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -13.97 0)
+        (length 5.08)
+        (name "26"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -16.51 0)
+        (length 5.08)
+        (name "27"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -19.05 0)
+        (length 5.08)
+        (name "28"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -21.59 0)
+        (length 5.08)
+        (name "29"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -24.13 0)
+        (length 5.08)
+        (name "30"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -26.67 0)
+        (length 5.08)
+        (name "31"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -29.21 0)
+        (length 5.08)
+        (name "32"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -31.75 0)
+        (length 5.08)
+        (name "33"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -34.29 0)
+        (length 5.08)
+        (name "34"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -36.83 0)
+        (length 5.08)
+        (name "35"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -39.37 0)
+        (length 5.08)
+        (name "36"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -41.91 0)
+        (length 5.08)
+        (name "37"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -44.45 0)
+        (length 5.08)
+        (name "38"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -46.99 0)
+        (length 5.08)
+        (name "39"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at -15.24 -49.53 0)
+        (length 5.08)
+        (name "40"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left))))
+      (pin passive line
+        (at 0 -55.88 90)
+        (length 5.08)
+        (name "RETENTION"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))
+        (number "MP"
+          (effects
+            (font
+              (size 1.27 1.27))
+            (justify left)))))))

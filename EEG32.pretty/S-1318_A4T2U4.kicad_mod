@@ -1,0 +1,200 @@
+(footprint "S-1318_A4T2U4"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0609 1.109514 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3e1f87a7-847e-4b51-8cd7-9e7f00dcb956")
+		(effects
+			(font
+				(size 0.2286 0.2286)
+				(thickness 0.0508)
+			)
+		)
+	)
+	(property "Value" "S-1318D33-A4T2U4"
+		(at -8.217462 -35.626662 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c5d086da-8b0e-463a-9a9b-c01804f689f5")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0db247ea-01c6-4498-8450-56bfe3114f0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a43154e-65eb-47f0-b0c2-5e8e3128fcdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "Power_V1")
+	(sheetfile "Power_V1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 0 -0.192302) (xy 0.152773 -0.039528) (xy 0.322552 -0.039528) (xy 0.322552 0.039528) (xy 0.152773 0.039528)
+			(xy 0 0.192302) (xy -0.152773 0.039528) (xy -0.322552 0.039528) (xy -0.322552 -0.039528) (xy -0.152773 -0.039528)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "f93cd799-21cd-4fbc-a42c-90e836dc4929")
+	)
+	(fp_rect
+		(start -0.6207 -0.8366)
+		(end 0.6207 0.8366)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "012217c8-d9cf-4b33-8e62-7fde3d68149a")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c5f961d5-275a-4e48-8a8a-792518771a51")
+	)
+	(fp_circle
+		(center 0.3302 -0.5588)
+		(end 0.4902 -0.5588)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "68f91a2a-1e3c-43aa-b025-dddc191452af")
+	)
+	(pad "1" smd custom
+		(at 0.3302 -0.5588)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1905 0.1778) (xy 0.1905 -0.1778) (xy -0.1905 -0.1778) (xy -0.1905 0.1078) (xy -0.1205 0.1778)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "9520054e-b2cb-4d5b-89d0-68dc67b2d85a")
+	)
+	(pad "2" smd custom
+		(at -0.3302 -0.5588)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1905 0.1778) (xy -0.1905 -0.1778) (xy 0.1905 -0.1778) (xy 0.1905 0.1078) (xy 0.1205 0.1778)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "bb383aba-4715-4b18-887d-9d96d44d275f")
+	)
+	(pad "3" smd custom
+		(at -0.3302 0.5588)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1905 -0.1778) (xy -0.1905 0.1778) (xy 0.1905 0.1778) (xy 0.1905 -0.1078) (xy 0.1205 -0.1778)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "452f5a9f-b46f-445b-8a2c-79cad3542593")
+	)
+	(pad "4" smd custom
+		(at 0.3302 0.5588)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1905 -0.1778) (xy 0.1905 0.1778) (xy -0.1905 0.1778) (xy -0.1905 -0.1078) (xy -0.1205 -0.1778)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "843f8d88-01d5-4f8a-9294-b45ef284d574")
+	)
+	(pad "5" smd custom
+		(at 0 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.304056) (xy 0.241556 -0.0625) (xy 0.51 -0.0625) (xy 0.51 0.0625) (xy 0.241556 0.0625)
+					(xy 0 0.304056) (xy -0.241556 0.0625) (xy -0.51 0.0625) (xy -0.51 -0.0625) (xy -0.241556 -0.0625)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "17308299-4b0b-4d51-babb-0ba1d9031399")
+	)
+	(embedded_fonts no)
+)

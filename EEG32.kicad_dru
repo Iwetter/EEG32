@@ -1,0 +1,22 @@
+(version 1)
+# General clearance remains 0.200 mm. Absolute engine floor permits named local exceptions only.
+(rule "General 0.200 mm clearance" (constraint clearance (min 0.2mm)))
+(rule "U1 QFN48 escape 0.127 mm" (condition "A.enclosedByArea('U1 QFN48 escape') && B.enclosedByArea('U1 QFN48 escape')") (constraint clearance (min 0.127mm)))
+(rule "RF reference network 0.127 mm" (condition "A.enclosedByArea('RF reference network') && B.enclosedByArea('RF reference network')") (constraint clearance (min 0.127mm)))
+(rule "X2 2016 clock footprint 0.127 mm" (condition "A.enclosedByArea('X2 2016 clock footprint') && B.enclosedByArea('X2 2016 clock footprint')") (constraint clearance (min 0.127mm)))
+
+# Preserve the intended antenna feed while rejecting unrelated signal routing.
+(rule "Antenna area RF feed only"
+  (condition "A.intersectsArea('Antenna copper clearance') && A.NetName != 'RF_ANT'")
+  (constraint disallow track))
+
+# Provisional 4-layer / 1oz manufacturing profile; house and stackup require confirmation.
+(rule "Through-via drill 0.200 mm minimum" (condition "A.Type == 'Via'") (constraint hole_size (min 0.2mm)))
+(rule "Through-via annular ring 0.125 mm" (condition "A.Type == 'Via'") (constraint annular_width (min 0.125mm)))
+(rule "No blind or microvias" (constraint disallow micro_via blind_via))
+
+# Five inherited Nordic/RF vias: 0.508mm diameter / 0.3048mm hole / 0.1016mm ring.
+# Within the named RF region only; JLCPCB published via diameter-minus-hole minimum is 0.10mm.
+(rule "RF inherited via annular ring 0.100 mm"
+  (condition "A.Type == 'Via' && A.enclosedByArea('RF reference network')")
+  (constraint annular_width (min 0.1mm)))

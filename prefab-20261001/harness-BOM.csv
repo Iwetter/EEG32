@@ -1,0 +1,3 @@
+Item,Quantity,Manufacturer,MPN,Specification,Scope
+H1 cable,1,Molex,0151660431,40 conductors;0.5mm pitch;Type A same-side;102+/-3mm;screen both tail thicknesses0.270..0.330mm,"Separate bench harness, not PCB placement"
+H1/JB connector,1,Molex,503480-4000,"Front mounted,0deg same local footprint,mouth toward EEG32;pin1 left in common view;breakout labels per FFC-end-to-end.csv",Remote bench-breakout interface contract; no remote PCB supplied

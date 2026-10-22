@@ -1,0 +1,41 @@
+{
+  "revision": "2.1-prefab-bench",
+  "schematic_pin_changes": {
+    "U1.37": "NC -> GND",
+    "U1.38": "NC -> GND"
+  },
+  "new_tracks": 2,
+  "exposed_pad_vias_filled_capped": [
+    [
+      70.6,
+      31.97
+    ],
+    [
+      69.00001,
+      31.12
+    ],
+    [
+      68.683883,
+      30.503883
+    ],
+    [
+      70.6,
+      33.17
+    ],
+    [
+      69.4,
+      33.17
+    ],
+    [
+      69.4,
+      31.97
+    ]
+  ],
+  "components": 225,
+  "purchased_parts": 213,
+  "pcb_features": 12,
+  "missing_MPN": 0,
+  "nominal_values_changed": [],
+  "placements_changed": [],
+  "provisional_fab_profile": "PROVISIONAL-JLCPCB-4L-1OZ-ENIG-GREEN"
+}

@@ -1,0 +1,82 @@
+(footprint "HDR1X2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.818076 -0.047957 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81bdbb2d-e7d2-40c1-8d00-d286a13d6a50")
+		(effects
+			(font
+				(size 0.2286 0.2286)
+				(thickness 0.0508)
+			)
+		)
+	)
+	(property "Value" "Header 2"
+		(at -2.281626 5.235144 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "de19748b-d593-427d-9acc-6238fe01d708")
+		(effects
+			(font
+				(size 0.2286 0.2286)
+				(thickness 0.0508)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41be7fd5-b10a-41f5-b7a9-d54a9eaa46a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3711c564-1bfb-4869-b09f-67807b06e933")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "nRF52_V1")
+	(sheetfile "nRF52_V1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1 -1)
+		(end 3.54 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2f60cfe3-278a-4f5b-9c87-26be8d19087a")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df79c768-443f-402c-b52a-d3495b2dc333")
+	)
+	(pad "2" smd circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "6739a90d-d038-42b4-81e3-eea77b44fcc5")
+	)
+	(embedded_fonts no)
+)

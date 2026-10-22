@@ -1,0 +1,6838 @@
+(kicad_sch
+  (version 20260306)
+  (generator "eeschema")
+  (generator_version "10.0")
+  (uuid "6ce3fa20-9a3e-5005-8780-6054711ee169")
+  (paper "A3")
+  (title_block
+    (title "EEG32 passive | AFE2 | CH09-CH16")
+    (date "2026-10-01")
+    (rev "2.1-prefab-bench")
+    (comment 1 "Passive bench prototype | protection and footprint release review pending"))
+  (lib_symbols
+    (symbol "EEG32:ADS1299IPAG_8CH"
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "ADS1299IPAG_8CH_1_0"
+        (rectangle
+          (start 0 -30.48)
+          (end -76.2 0)
+          (stroke
+            (width 0.0254)
+            (type solid)
+            (color 128 0 0 1))
+          (fill
+            (type background)))
+        (pin input line
+          (at -40.64 -35.56 90)
+          (length 5.08)
+          (name "IN8N"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -38.1 -35.56 90)
+          (length 5.08)
+          (name "IN8P"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -35.56 -35.56 90)
+          (length 5.08)
+          (name "IN7N"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -33.02 -35.56 90)
+          (length 5.08)
+          (name "IN7P"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -30.48 -35.56 90)
+          (length 5.08)
+          (name "IN6N"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -27.94 -35.56 90)
+          (length 5.08)
+          (name "IN6P"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "6"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -25.4 -35.56 90)
+          (length 5.08)
+          (name "IN5N"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "7"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -22.86 -35.56 90)
+          (length 5.08)
+          (name "IN5P"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "8"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -20.32 -35.56 90)
+          (length 5.08)
+          (name "IN4N"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "9"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -17.78 -35.56 90)
+          (length 5.08)
+          (name "IN4P"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "10"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -15.24 -35.56 90)
+          (length 5.08)
+          (name "IN3N"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "11"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -12.7 -35.56 90)
+          (length 5.08)
+          (name "IN3P"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "12"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -10.16 -35.56 90)
+          (length 5.08)
+          (name "IN2N"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "13"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -7.62 -35.56 90)
+          (length 5.08)
+          (name "IN2P"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "14"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -5.08 -35.56 90)
+          (length 5.08)
+          (name "IN1N"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "15"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -2.54 -35.56 90)
+          (length 5.08)
+          (name "IN1P"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "16"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -50.8 -35.56 90)
+          (length 5.08)
+          (name "SRB1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "17"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -53.34 -35.56 90)
+          (length 5.08)
+          (name "SRB2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "18"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -71.12 -35.56 90)
+          (length 5.08)
+          (name "VREFP"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "24"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -73.66 -35.56 90)
+          (length 5.08)
+          (name "VREFN"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "25"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -73.66 5.08 270)
+          (length 5.08)
+          (name "VCAP4"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "26"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -58.42 5.08 270)
+          (length 5.08)
+          (name "NC"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "27"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -66.04 5.08 270)
+          (length 5.08)
+          (name "VCAP1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "28"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -60.96 5.08 270)
+          (length 5.08)
+          (name "NC"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "29"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -68.58 5.08 270)
+          (length 5.08)
+          (name "VCAP2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "30"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -5.08 5.08 270)
+          (length 5.08)
+          (name "DIN"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "34"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -43.18 5.08 270)
+          (length 5.08)
+          (name "~{PWDN}"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "35"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -40.64 5.08 270)
+          (length 5.08)
+          (name "~{RESET}"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "36"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -17.78 5.08 270)
+          (length 5.08)
+          (name "CLK"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "37"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -38.1 5.08 270)
+          (length 5.08)
+          (name "START"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "38"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -10.16 5.08 270)
+          (length 5.08)
+          (name "~{CS}"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "39"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input clock
+          (at -2.54 5.08 270)
+          (length 5.08)
+          (name "SCLK"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "40"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -45.72 -35.56 90)
+          (length 5.08)
+          (name "DAISY_IN"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "41"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -25.4 5.08 270)
+          (length 5.08)
+          (name "GPIO1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "42"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin tri_state line
+          (at -7.62 5.08 270)
+          (length 5.08)
+          (name "DOUT"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "43"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -27.94 5.08 270)
+          (length 5.08)
+          (name "GPIO2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "44"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -30.48 5.08 270)
+          (length 5.08)
+          (name "GPIO3"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "45"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -33.02 5.08 270)
+          (length 5.08)
+          (name "GPIO4"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "46"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin output line
+          (at -12.7 5.08 270)
+          (length 5.08)
+          (name "~{DRDY}"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "47"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -20.32 5.08 270)
+          (length 5.08)
+          (name "CLKSEL"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "52"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -71.12 5.08 270)
+          (length 5.08)
+          (name "VCAP3"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "55"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -58.42 -35.56 90)
+          (length 5.08)
+          (name "BIASREF"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "60"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -60.96 -35.56 90)
+          (length 5.08)
+          (name "BIASINV"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "61"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -66.04 -35.56 90)
+          (length 5.08)
+          (name "BIASIN"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "62"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin output line
+          (at -63.5 -35.56 90)
+          (length 5.08)
+          (name "BIASOUT"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "63"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -50.8 5.08 270)
+          (length 5.08)
+          (name "RESERVED"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "64"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (symbol "ADS1299IPAG_8CH_2_0"
+        (rectangle
+          (start 0 -20.32)
+          (end -33.02 0)
+          (stroke
+            (width 0.0254)
+            (type solid)
+            (color 128 0 0 1))
+          (fill
+            (type background)))
+        (pin power_in line
+          (at -7.62 5.08 270)
+          (length 5.08)
+          (name "AVDD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "19"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -7.62 -25.4 90)
+          (length 5.08)
+          (name "AVSS"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "20"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -10.16 5.08 270)
+          (length 5.08)
+          (name "AVDD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "21"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -12.7 5.08 270)
+          (length 5.08)
+          (name "AVDD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "22"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -10.16 -25.4 90)
+          (length 5.08)
+          (name "AVSS"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "23"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -22.86 -25.4 90)
+          (length 5.08)
+          (name "RESV1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "31"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -12.7 -25.4 90)
+          (length 5.08)
+          (name "AVSS"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "32"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -25.4 -25.4 90)
+          (length 5.08)
+          (name "DGND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "33"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -27.94 5.08 270)
+          (length 5.08)
+          (name "DVDD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "48"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -27.94 -25.4 90)
+          (length 5.08)
+          (name "DGND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "49"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -30.48 5.08 270)
+          (length 5.08)
+          (name "DVDD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "50"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -30.48 -25.4 90)
+          (length 5.08)
+          (name "DGND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "51"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -2.54 -25.4 90)
+          (length 5.08)
+          (name "AVSS1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "53"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -2.54 5.08 270)
+          (length 5.08)
+          (name "AVDD1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "54"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -15.24 5.08 270)
+          (length 5.08)
+          (name "AVDD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "56"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -15.24 -25.4 90)
+          (length 5.08)
+          (name "AVSS"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "57"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -17.78 -25.4 90)
+          (length 5.08)
+          (name "AVSS"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "58"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -17.78 5.08 270)
+          (length 5.08)
+          (name "AVDD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "59"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "EEG32:C"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0.254))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "C_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "EEG32:C_Polarized"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0.254))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C_Polarized"
+        (at 0.635 -2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "C_Polarized_0_1"
+        (rectangle
+          (start -2.286 0.508)
+          (end 2.286 1.016)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.27 2.794)
+            (xy -1.27 1.778))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 2.286 -0.508)
+          (end -2.286 -1.016)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type outline))))
+      (symbol "C_Polarized_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "EEG32:MOLX-503480-1700"
+      (pin_names
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "MOLX-503480-1700_1_0"
+        (polyline
+          (pts
+            (xy -5.08 -2.54)
+            (xy -3.302 -2.54))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -5.08)
+            (xy -3.302 -5.08))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -7.62)
+            (xy -3.302 -7.62))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -10.16)
+            (xy -3.302 -10.16))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -12.7)
+            (xy -3.302 -12.7))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -15.24)
+            (xy -3.302 -15.24))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -17.78)
+            (xy -3.302 -17.78))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -20.32)
+            (xy -3.302 -20.32))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -22.86)
+            (xy -3.302 -22.86))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -25.4)
+            (xy -3.302 -25.4))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -27.94)
+            (xy -3.302 -27.94))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -30.48)
+            (xy -3.302 -30.48))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -33.02)
+            (xy -3.302 -33.02))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -35.56)
+            (xy -3.302 -35.56))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -38.1)
+            (xy -3.302 -38.1))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -40.64)
+            (xy -3.302 -40.64))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -43.18)
+            (xy -3.302 -43.18))
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -2.54)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -5.08)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -7.62)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -10.16)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -12.7)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -15.24)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -17.78)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -20.32)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -22.86)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -25.4)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -27.94)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -30.48)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -33.02)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -35.56)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -38.1)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -40.64)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (circle
+          (center -2.54 -43.18)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (rectangle
+          (start 0 0)
+          (end -5.08 -53.34)
+          (stroke
+            (width 0)
+            (type solid))
+          (fill
+            (type none)))
+        (pin passive line
+          (at -10.16 -2.54 0)
+          (length 5.08)
+          (name "1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -5.08 0)
+          (length 5.08)
+          (name "2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -7.62 0)
+          (length 5.08)
+          (name "3"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -10.16 0)
+          (length 5.08)
+          (name "4"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -12.7 0)
+          (length 5.08)
+          (name "5"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -15.24 0)
+          (length 5.08)
+          (name "6"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "6"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -17.78 0)
+          (length 5.08)
+          (name "7"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "7"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -20.32 0)
+          (length 5.08)
+          (name "8"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "8"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -22.86 0)
+          (length 5.08)
+          (name "9"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "9"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -25.4 0)
+          (length 5.08)
+          (name "10"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "10"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -27.94 0)
+          (length 5.08)
+          (name "11"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "11"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -30.48 0)
+          (length 5.08)
+          (name "12"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "12"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -33.02 0)
+          (length 5.08)
+          (name "13"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "13"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -35.56 0)
+          (length 5.08)
+          (name "14"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "14"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -38.1 0)
+          (length 5.08)
+          (name "15"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "15"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -40.64 0)
+          (length 5.08)
+          (name "16"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "16"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -43.18 0)
+          (length 5.08)
+          (name "17"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "17"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -48.26 0)
+          (length 5.08)
+          (name "MP1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "MP1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -10.16 -50.8 0)
+          (length 5.08)
+          (name "MP2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "MP2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "EEG32:R"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "R"
+        (at 2.032 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "R"
+        (at 0 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at -1.778 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Imported reference symbol; pin functions reviewed for EEG32."
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "R_0_1"
+        (rectangle
+          (start -1.016 -2.54)
+          (end 1.016 2.54)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "R_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no)))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 241.3 195.58 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "0058d90b-3db3-5fb5-8c05-956283f133c7")
+    (property "Reference" "C208"
+      (at 245.11 193.04 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "1uF"
+      (at 245.11 196.85 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "2"
+      (uuid "8c874192-c0a5-4625-8bc5-6c654bac3769"))
+    (pin "1"
+      (uuid "f814f0a2-319b-4a26-9acc-2efd29fc8aab"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C208")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 241.3 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 241.3 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 241.3 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 241.3 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 190.5 231.14 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "0c9b7718-da7e-5b60-8531-65eba979e458")
+    (property "Reference" "C220"
+      (at 194.31 228.6 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 194.31 232.41 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C104KA88D"
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "97a1a57d-b1c5-403f-9637-908432ee0ffe"))
+    (pin "2"
+      (uuid "71485bc5-51b7-4c74-ad96-734ce65b47d4"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C220")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 190.5 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R71C104KA88D"
+      (at 190.5 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100nF; +/-10%; X7R; 16VDC; 0402; -55..125C"
+      (at 190.5 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 190.5 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:R")
+    (at 304.8 111.76 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "26a53dcc-46c1-505e-afe7-f3f2a132151a")
+    (property "Reference" "R205"
+      (at 308.61 109.22 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10k"
+      (at 308.61 113.03 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:R0402"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip/thick_film_general_purpose/rc"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "4a009594-8fbb-47d0-9fd0-83c1e1917ac1"))
+    (pin "2"
+      (uuid "c5caa9a9-bcdf-4763-a92e-a8f2cb11ad01"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "R205")
+          (unit 1))))
+    (property "Manufacturer" "Yageo"
+      (at 304.8 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "RC0402FR-0710KL"
+      (at 304.8 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "10kohm; +/-1%; 62.5mW at70C; 50V max; 0402; TCR +/-100ppm/C"
+      (at 304.8 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 304.8 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 320.04 157.48 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "2a71f66f-7bdb-51f9-9558-0dfc66465908")
+    (property "Reference" "C214"
+      (at 323.85 154.94 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 323.85 158.75 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at -20.32 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C104KA88D"
+      (at -20.32 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -20.32 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "2"
+      (uuid "20387eab-2470-408a-aeb1-6d1bc5b9e8a5"))
+    (pin "1"
+      (uuid "d365c0f4-e5c8-4032-99d9-a095982d6fbd"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C214")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 320.04 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R71C104KA88D"
+      (at 320.04 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100nF; +/-10%; X7R; 16VDC; 0402; -55..125C"
+      (at 320.04 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 320.04 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 355.6 195.58 180)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "2bac4cde-4383-5af9-86f6-19039a422e9b")
+    (property "Reference" "C217"
+      (at 359.41 193.04 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Value" "1uF"
+      (at 359.41 196.85 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Footprint" "EEG32:C0402"
+      (at 269.24 -27.94 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at 269.24 -27.94 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 269.24 -27.94 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "a9d8b1f5-6990-49f0-a402-5cfd3bf1a4e8"))
+    (pin "2"
+      (uuid "11fd5b3c-d3ee-4485-aeb3-d22d8b7d9f5f"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C217")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 355.6 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 355.6 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 355.6 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 355.6 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 279.4 157.48 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "300b2edd-e38b-5438-a803-48366752b45d")
+    (property "Reference" "C213"
+      (at 283.21 154.94 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10uF"
+      (at 283.21 158.75 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0603"
+      (at -10.16 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM188R61A106KE69D"
+      (at -10.16 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -10.16 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "d28beaee-5f24-4db4-b538-9bfabf7e12ff"))
+    (pin "2"
+      (uuid "4c5ffb43-e7a7-41ce-b8b5-175d82d6c784"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C213")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 279.4 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM188R61A106KE69D"
+      (at 279.4 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "10uF; +/-10%; X5R; 10VDC; 0603; -55..85C"
+      (at 279.4 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Specified ADS VREFP capacitor; effective capacitance >= datasheet requirement under bias required"
+      (at 279.4 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 139.7 231.14 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "382b0ad3-148b-5f06-a20f-be3e7d35c9d3")
+    (property "Reference" "C219"
+      (at 143.51 228.6 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "1uF"
+      (at 143.51 232.41 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "2def1e1b-8f33-4c3d-bac4-65e70b6498fa"))
+    (pin "2"
+      (uuid "d44f08d4-f840-4c69-8f69-f44365a3da3d"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C219")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 139.7 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 139.7 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 139.7 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 139.7 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C_Polarized")
+    (at 38.1 157.48 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "40dc0073-ba51-5667-a418-4994da90b9cd")
+    (property "Reference" "C201"
+      (at 41.91 154.94 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100uF 6.3V TANT"
+      (at 41.91 158.75 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:CP_EIA-3528-21_Kemet-B"
+      (at 2.54 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"
+      (at 2.54 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 2.54 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "MPN" "T491B107K006AT"
+      (at 2.54 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "2"
+      (uuid "f652be91-9abf-471e-a4cd-6bea8ce84c5f"))
+    (pin "1"
+      (uuid "5a08e620-e6cd-4b1f-bfdd-e60c3a33a53b"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C201")
+          (unit 1))))
+    (property "Manufacturer" "KEMET"
+      (at 38.1 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100uF; +/-10%; tantalum; 6.3VDC; B/3528; ESR <=2.0ohm at100kHz; polarized"
+      (at 38.1 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "VCAP1 part retained; check anode/polarity and surge/derating"
+      (at 38.1 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 292.1 195.58 180)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "470d6d59-8edb-57df-8de1-c921ef01df55")
+    (property "Reference" "C209"
+      (at 295.91 193.04 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Value" "100nF"
+      (at 295.91 196.85 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Footprint" "EEG32:C0402"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C104KA88D"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "7b5838fa-72a2-42a3-8d2a-9c38314f5f12"))
+    (pin "2"
+      (uuid "aa342fb3-cd52-44a6-947c-0142c113bf0f"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C209")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 292.1 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R71C104KA88D"
+      (at 292.1 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100nF; +/-10%; X7R; 16VDC; 0402; -55..125C"
+      (at 292.1 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 292.1 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 88.9 195.58 180)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "4e034eb9-7682-5af8-b9d6-51a26c8c7bd2")
+    (property "Reference" "C205"
+      (at 92.71 193.04 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Value" "100nF"
+      (at 92.71 196.85 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Footprint" "EEG32:C0402"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C104KA88D"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "2"
+      (uuid "f3e821ee-461f-4033-bd64-334ca38e8d0a"))
+    (pin "1"
+      (uuid "b778d79c-cc3c-4dc1-916a-4e03236823c3"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C205")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 88.9 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R71C104KA88D"
+      (at 88.9 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100nF; +/-10%; X7R; 16VDC; 0402; -55..125C"
+      (at 88.9 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 88.9 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:R")
+    (at 233.68 88.9 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "51904ba4-c72b-5144-bb71-995128f01e11")
+    (property "Reference" "R202"
+      (at 237.49 86.36 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10k"
+      (at 237.49 90.17 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:R0402"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip/thick_film_general_purpose/rc"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "166703c7-563f-454f-9cf3-b6a9292471e3"))
+    (pin "2"
+      (uuid "c272f170-c400-454f-9560-3660e87742bb"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "R202")
+          (unit 1))))
+    (property "Manufacturer" "Yageo"
+      (at 233.68 88.9 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "RC0402FR-0710KL"
+      (at 233.68 88.9 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "10kohm; +/-1%; 62.5mW at70C; 50V max; 0402; TCR +/-100ppm/C"
+      (at 233.68 88.9 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 233.68 88.9 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 241.3 231.14 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "5ee27071-7065-5fde-9bdf-97daf92311d9")
+    (property "Reference" "C221"
+      (at 245.11 228.6 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "1uF"
+      (at 245.11 232.41 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "2"
+      (uuid "0e468f6e-050b-4d8a-a186-1a688cbcdd16"))
+    (pin "1"
+      (uuid "35bde994-8c22-4042-8d54-dffd9bdf0e4f"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C221")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 241.3 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 241.3 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 241.3 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 241.3 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 88.9 231.14 180)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "643ae44e-3dc1-55c0-a04e-3dfe08798aee")
+    (property "Reference" "C211"
+      (at 92.71 228.6 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Value" "100nF"
+      (at 92.71 232.41 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Footprint" "EEG32:C0402"
+      (at 53.34 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C104KA88D"
+      (at 53.34 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 53.34 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "bc871dac-2612-4038-a68b-099b93997c76"))
+    (pin "2"
+      (uuid "ca901d2c-c4c9-4374-aa57-f9e3edafb550"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C211")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 88.9 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R71C104KA88D"
+      (at 88.9 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100nF; +/-10%; X7R; 16VDC; 0402; -55..125C"
+      (at 88.9 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 88.9 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 139.7 195.58 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "65bdff83-0b9c-5e0e-a60f-11d2a95c0dae")
+    (property "Reference" "C206"
+      (at 143.51 193.04 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "1uF"
+      (at 143.51 196.85 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "631a29e4-80db-48f6-87a4-2370bdbb4704"))
+    (pin "2"
+      (uuid "ec404a4d-7c78-45d1-a11a-13f34cceadd7"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C206")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 139.7 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 139.7 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 139.7 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 139.7 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 154.94 157.48 180)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "6ea1152b-09d3-5b9b-9d88-fa87ccfd63e3")
+    (property "Reference" "C215"
+      (at 158.75 154.94 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Value" "1uF"
+      (at 158.75 158.75 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Footprint" "EEG32:C0402"
+      (at -33.02 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at -33.02 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -33.02 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "2"
+      (uuid "51178686-fcd8-4805-b3e5-58c41b8b74b7"))
+    (pin "1"
+      (uuid "ce9aa987-5715-4cb7-870d-cc45baf095f4"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C215")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 154.94 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 154.94 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 154.94 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 154.94 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 119.38 157.48 180)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "6efdf1b9-f728-522c-9a2c-95d36dd30e11")
+    (property "Reference" "C212"
+      (at 123.19 154.94 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Value" "100nF"
+      (at 123.19 158.75 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Footprint" "EEG32:C0402"
+      (at -17.78 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C104KA88D"
+      (at -17.78 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -17.78 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "2"
+      (uuid "4d844a6a-3b5e-44f1-8e7d-3edac5e34a2b"))
+    (pin "1"
+      (uuid "fc4306fb-ae76-46e7-b021-fbcc5c17cc33"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C212")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 119.38 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R71C104KA88D"
+      (at 119.38 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100nF; +/-10%; X7R; 16VDC; 0402; -55..125C"
+      (at 119.38 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 119.38 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 292.1 231.14 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "8141351c-d844-53dc-9b1c-7dbd61b0fc79")
+    (property "Reference" "C222"
+      (at 295.91 228.6 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 295.91 232.41 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C104KA88D"
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -48.26 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "c35c93a0-80f8-4981-a1a5-bbc8362f48ae"))
+    (pin "2"
+      (uuid "85aa660c-4975-4c56-b5eb-48b6188cdb09"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C222")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 292.1 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R71C104KA88D"
+      (at 292.1 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100nF; +/-10%; X7R; 16VDC; 0402; -55..125C"
+      (at 292.1 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 292.1 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:R")
+    (at 233.68 111.76 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "997c2a99-61e9-514b-b9cc-9d1ccc43755a")
+    (property "Reference" "R203"
+      (at 237.49 109.22 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10k"
+      (at 237.49 113.03 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:R0402"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip/thick_film_general_purpose/rc"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "2"
+      (uuid "9b5fc567-f995-493a-9800-001b805bc52a"))
+    (pin "1"
+      (uuid "7e090614-65f3-421c-9988-32db48d5c157"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "R203")
+          (unit 1))))
+    (property "Manufacturer" "Yageo"
+      (at 233.68 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "RC0402FR-0710KL"
+      (at 233.68 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "10kohm; +/-1%; 62.5mW at70C; 50V max; 0402; TCR +/-100ppm/C"
+      (at 233.68 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 233.68 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 78.74 157.48 180)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "99e7a198-c010-5f44-bc12-0b6a48bb0a50")
+    (property "Reference" "C202"
+      (at 82.55 154.94 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Value" "1uF"
+      (at 82.55 158.75 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Footprint" "EEG32:C0402"
+      (at -7.62 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at -7.62 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -7.62 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "e35b10b4-51f9-4772-a160-3d4e5072fd48"))
+    (pin "2"
+      (uuid "059553c9-c61a-4945-9892-cd9e090c770d"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C202")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 78.74 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 78.74 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 78.74 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 78.74 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:R")
+    (at 269.24 111.76 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "9a70f587-859f-5a5d-866a-8a1fb039e10e")
+    (property "Reference" "R204"
+      (at 273.05 109.22 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10k"
+      (at 273.05 113.03 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:R0402"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip/thick_film_general_purpose/rc"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "72c11b63-fdbc-4ea7-9c59-5fe7e592da5e"))
+    (pin "2"
+      (uuid "4ab3470c-49fb-41c9-88ed-5e5a6796fe2b"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "R204")
+          (unit 1))))
+    (property "Manufacturer" "Yageo"
+      (at 269.24 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "RC0402FR-0710KL"
+      (at 269.24 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "10kohm; +/-1%; 62.5mW at70C; 50V max; 0402; TCR +/-100ppm/C"
+      (at 269.24 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 269.24 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 38.1 231.14 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "9de46d57-08be-5f1d-819a-c2a646b35a6b")
+    (property "Reference" "C210"
+      (at 41.91 228.6 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "1uF"
+      (at 41.91 232.41 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at -302.26 43.18 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at -302.26 43.18 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -302.26 43.18 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "c2a6a6f8-b628-490f-b8c9-2d24b4de0366"))
+    (pin "2"
+      (uuid "b784bd7a-1744-4f85-8677-8779e4d97e93"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C210")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 38.1 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 38.1 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 38.1 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 38.1 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:R")
+    (at 340.36 111.76 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "ab6c9bbb-3829-54ef-a6f6-e5feabdca0d7")
+    (property "Reference" "R206"
+      (at 344.17 109.22 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10k"
+      (at 344.17 113.03 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:R0402"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip/thick_film_general_purpose/rc"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "bbf2d40b-29e4-4895-9b76-1c04aab08300"))
+    (pin "2"
+      (uuid "cb45ab9e-38fc-4ac6-9a15-99cac96cad04"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "R206")
+          (unit 1))))
+    (property "Manufacturer" "Yageo"
+      (at 340.36 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "RC0402FR-0710KL"
+      (at 340.36 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "10kohm; +/-1%; 62.5mW at70C; 50V max; 0402; TCR +/-100ppm/C"
+      (at 340.36 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 340.36 111.76 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:ADS1299IPAG_8CH")
+    (at 91.44 35.56 90)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "b8296bd6-0b23-50e6-8d43-6e0a57230789")
+    (property "Reference" "U201"
+      (at 106.68 31.75 90)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "ADS1299IPAG"
+      (at 106.68 34.29 90)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "EEG32:PAG0064A_L"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1299.pdf"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "MPN" "ADS1299IPAG"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "39"
+      (uuid "76008810-e374-41f2-8f3e-8e3a314c4d10"))
+    (pin "38"
+      (uuid "fe03f893-3604-45da-8072-b66da366b409"))
+    (pin "40"
+      (uuid "df52f487-5f72-4e63-91a6-3eaca5ab83ac"))
+    (pin "41"
+      (uuid "91ace9bf-dec3-43ce-be2f-7137299a423a"))
+    (pin "42"
+      (uuid "dd22f86c-ee5d-4005-bd91-f306c9379365"))
+    (pin "32"
+      (uuid "830539b4-3626-44a1-8b4b-a44f613f319e"))
+    (pin "44"
+      (uuid "031461fa-e67c-4e49-9a24-eb951275e0fa"))
+    (pin "19"
+      (uuid "0b863c11-f503-4f31-bf64-402601530a2f"))
+    (pin "61"
+      (uuid "33868e30-2a32-474f-95aa-2d413ce05f13"))
+    (pin "20"
+      (uuid "d850c27a-85db-4f16-9220-d203a99d7eb1"))
+    (pin "33"
+      (uuid "182aab20-5997-4d28-a8f5-0a04e30740a3"))
+    (pin "62"
+      (uuid "73c1c665-d00f-4ce6-ab55-d55d44ec85dd"))
+    (pin "59"
+      (uuid "c5444e1b-d142-4b1b-8f8b-dffd6e411ff0"))
+    (pin "47"
+      (uuid "eef8831c-f390-4913-98c5-6bf3610af030"))
+    (pin "52"
+      (uuid "f931253d-ac34-4812-bd49-424123644741"))
+    (pin "50"
+      (uuid "9c315674-1cc6-4c59-ac5f-b328cf62f6e9"))
+    (pin "51"
+      (uuid "21218766-8464-4066-a234-865da1672f44"))
+    (pin "53"
+      (uuid "ee5171bf-e546-4c97-8843-4b9df5b7be76"))
+    (pin "45"
+      (uuid "e5fd9027-e40b-4078-8b0f-0a8cf2e8c000"))
+    (pin "21"
+      (uuid "464187d0-6d01-43ab-af4c-8c74a2439d59"))
+    (pin "46"
+      (uuid "937038b6-2032-4b00-bc89-1e4b9a7bf727"))
+    (pin "63"
+      (uuid "147ebcf7-1451-457d-b630-0ddd69aef4a9"))
+    (pin "55"
+      (uuid "72fb5176-869c-484f-8415-7918655a14fa"))
+    (pin "64"
+      (uuid "5a23226d-9937-422a-bf83-e70ab37a5eaf"))
+    (pin "43"
+      (uuid "69d9218a-27f9-42ac-8dda-962c8ae14255"))
+    (pin "22"
+      (uuid "eb73875f-cde1-464e-bbd2-e0bb7441b59d"))
+    (pin "23"
+      (uuid "5df7328f-1fa2-4e4d-93ba-82ca5f7d6c76"))
+    (pin "60"
+      (uuid "00f6b8af-dbc1-4a09-8e0b-ba37ac3b9e61"))
+    (pin "31"
+      (uuid "1595a260-6fab-41c6-a6fd-27cc95256f71"))
+    (pin "48"
+      (uuid "7b97583b-e351-4ee6-9eb2-ae12a4706b13"))
+    (pin "49"
+      (uuid "b9fa04bc-4242-4ad7-8ac3-d89734a41629"))
+    (pin "56"
+      (uuid "b0ab793c-8dee-4f6a-90c7-79c5bd80f69f"))
+    (pin "54"
+      (uuid "c5e4a933-4bcf-427f-b00d-ff0bf941ba7d"))
+    (pin "57"
+      (uuid "32c8464c-4c1c-4719-80c7-b0763d3e238a"))
+    (pin "58"
+      (uuid "0a7d5d44-cf85-4d7b-980c-be8964f35f1e"))
+    (pin "6"
+      (uuid "17e38091-b776-4a89-90ce-53ea3d503772"))
+    (pin "8"
+      (uuid "5563a12a-9f79-466e-b85b-926e3aca0956"))
+    (pin "1"
+      (uuid "c24b7535-bf35-4973-8d89-52ffc140450f"))
+    (pin "2"
+      (uuid "32f810f4-a4f3-49a3-b629-d0e42d2b5a38"))
+    (pin "3"
+      (uuid "2cd35352-4507-4c5d-9e9f-895161ec4377"))
+    (pin "4"
+      (uuid "ad4a4ab5-08e4-45cd-9ff3-44bf735e1660"))
+    (pin "5"
+      (uuid "28a8bee6-bf07-4af4-b341-691b82960b58"))
+    (pin "7"
+      (uuid "2083caa0-63e9-4633-86e1-c5f2b0e8d17e"))
+    (pin "14"
+      (uuid "b5b1e18e-a4e1-43d3-b3be-66ab567c049a"))
+    (pin "27"
+      (uuid "018c5930-2b73-45ff-903b-59bcdb1b9039"))
+    (pin "29"
+      (uuid "7906ba54-bbdc-4884-aa02-ea596860f221"))
+    (pin "13"
+      (uuid "885e1dbd-03f5-48e7-8374-95d97e25f5d8"))
+    (pin "34"
+      (uuid "1208e153-b3ab-4b4d-bf87-f26f922b9dd1"))
+    (pin "15"
+      (uuid "3fa51658-3395-4fd1-94ee-c969f4d8533a"))
+    (pin "9"
+      (uuid "8e451c30-fd22-4ffd-91e7-33b37854bf21"))
+    (pin "12"
+      (uuid "a9b82d03-a0b1-4233-abe9-b680c68880d2"))
+    (pin "11"
+      (uuid "0e92ef8a-243b-4459-ae7d-b3f13d3f6fc0"))
+    (pin "16"
+      (uuid "e2502b1d-4045-4c06-b1f9-357ecd065c18"))
+    (pin "17"
+      (uuid "5be545e8-ce5b-43e0-ad7e-f822f79a3e0e"))
+    (pin "18"
+      (uuid "a27757a0-539a-42e2-bf4c-89a76d363a0d"))
+    (pin "24"
+      (uuid "13572741-ca67-41e5-b273-074cec35dced"))
+    (pin "25"
+      (uuid "019b152c-2659-4ba1-8a30-5ad2d5e4337b"))
+    (pin "10"
+      (uuid "2e1e9ee4-cab6-4c57-8fc9-f65bc6cbd206"))
+    (pin "26"
+      (uuid "dd4cd70e-3261-4e99-abc8-bfe1b0f53516"))
+    (pin "28"
+      (uuid "060e816b-d98b-45b0-aac8-3e4372c22be9"))
+    (pin "30"
+      (uuid "c7e243f8-7a8c-408f-87d6-cfb13b39b883"))
+    (pin "35"
+      (uuid "eeb4238d-e37b-4950-90be-12dc0f91df24"))
+    (pin "36"
+      (uuid "f26a14b8-4d8c-477f-a498-20c930b210b1"))
+    (pin "37"
+      (uuid "66e87d1e-a603-4b17-88cb-09f0c061a47a"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "U201")
+          (unit 1))))
+    (property "Manufacturer" "Texas Instruments"
+      (at 91.44 35.56 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "8-channel 24-bit EEG AFE; AVDD-AVSS4.75..5.25V; DVDD1.8..3.6V; TQFP64/PAG; no exposed pad"
+      (at 91.44 35.56 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 91.44 35.56 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:ADS1299IPAG_8CH")
+    (at 276.86 43.18 90)
+    (unit 2)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "b8296bd6-0b23-50e6-8d43-6e0a5723078a")
+    (property "Reference" "U201"
+      (at 287.02 39.37 90)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "ADS1299IPAG"
+      (at 287.02 41.91 90)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "EEG32:PAG0064A_L"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1299.pdf"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "MPN" "ADS1299IPAG"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "54"
+      (uuid "d7b84963-a2ff-4c7e-aa0f-a2659098c28d"))
+    (pin "58"
+      (uuid "947b10c9-a311-4bca-be7a-3a4f6708a9da"))
+    (pin "56"
+      (uuid "0e87a92f-011d-488e-bd3c-51a68ff413b3"))
+    (pin "59"
+      (uuid "93799682-59d8-414b-b35b-51ae98de4e22"))
+    (pin "53"
+      (uuid "c623b1fb-1b55-481c-b31c-ac34758ea92a"))
+    (pin "57"
+      (uuid "5ec171f4-f614-4c45-9b18-ed89db78a357"))
+    (pin "16"
+      (uuid "63081d33-3ce7-4e3e-b4ee-7541e802ed59"))
+    (pin "25"
+      (uuid "c63e2c8f-9765-41bd-8f89-27d0d07394d3"))
+    (pin "8"
+      (uuid "6ff3e990-1385-46b9-a792-f547d424c40e"))
+    (pin "18"
+      (uuid "572b4a32-29a8-4005-b7c6-7bdc6106dd37"))
+    (pin "34"
+      (uuid "15510754-ba0f-4722-bc20-2422401fdecf"))
+    (pin "36"
+      (uuid "3c1bb800-2c35-4e79-9b68-fdb6ccb31804"))
+    (pin "38"
+      (uuid "9ea20039-b9b9-42a4-a2ff-e744b129787c"))
+    (pin "40"
+      (uuid "1721e2ff-7a43-41f6-ba87-59d093dfe86c"))
+    (pin "42"
+      (uuid "97fa32ee-662e-43cc-993b-94344a374b82"))
+    (pin "6"
+      (uuid "e4e3b8c0-e8e2-4a30-93bd-bb20e483c7f1"))
+    (pin "13"
+      (uuid "81e534e7-609a-45e7-9ffb-a01a4d61783f"))
+    (pin "17"
+      (uuid "c41292d4-78a0-4f2a-bcd9-79a797641747"))
+    (pin "28"
+      (uuid "9c8d853e-1cdb-4ba3-af7e-a1d6dc6b9a4a"))
+    (pin "14"
+      (uuid "0985810d-c1ed-457f-b1ac-13be44b1d544"))
+    (pin "27"
+      (uuid "3f7a1ac1-c9d5-4a31-baa0-6aac9b39ebfd"))
+    (pin "4"
+      (uuid "610b52af-c523-4550-bb00-d34dba1354e0"))
+    (pin "3"
+      (uuid "5f35f9d1-1db9-4e20-bcf6-3c44f03c0fef"))
+    (pin "5"
+      (uuid "a61ca790-bbf6-44eb-b78f-cdfc2be24004"))
+    (pin "7"
+      (uuid "c52d4998-d5f3-454a-a6d8-494d802a2212"))
+    (pin "10"
+      (uuid "aaeb8042-5150-4e45-b3f3-3d49cba7b3db"))
+    (pin "11"
+      (uuid "76fc1d72-00fe-4acd-9272-afbd5b56b11a"))
+    (pin "12"
+      (uuid "62779981-1603-45cf-97ff-7fc5d0d9410e"))
+    (pin "9"
+      (uuid "fd54175c-4fd2-41fc-b06c-22326d528a8f"))
+    (pin "15"
+      (uuid "e38e6b08-efdc-4aa5-8b43-dc2786abe077"))
+    (pin "24"
+      (uuid "3ea6917e-9fd5-46c0-9363-637253e08d81"))
+    (pin "26"
+      (uuid "ef28f187-175e-40dc-9418-2561428ebd2b"))
+    (pin "29"
+      (uuid "3e7e5297-e8fb-4ea3-bfe8-289c66604aa1"))
+    (pin "30"
+      (uuid "9d1f489a-a8bd-4799-b2bc-d5221d669312"))
+    (pin "35"
+      (uuid "d4e29788-8a4e-4b83-a08f-7fb1cbcd6f81"))
+    (pin "37"
+      (uuid "b89e1c13-fe28-4c60-9097-8d70923341da"))
+    (pin "39"
+      (uuid "b113ed01-fd0f-4a2e-ab93-5dcd09bc48a2"))
+    (pin "41"
+      (uuid "2bbaa487-f425-45cc-b814-a237cf678f1b"))
+    (pin "45"
+      (uuid "f8190152-50f0-4610-bfa6-0faf4f5717ab"))
+    (pin "47"
+      (uuid "7552e4f9-45e9-4f4c-ae18-1eade131531f"))
+    (pin "44"
+      (uuid "a9f95148-351d-4274-9449-b7bae070dad0"))
+    (pin "60"
+      (uuid "7630177c-ea63-4083-93c7-e6ee9fbf0071"))
+    (pin "46"
+      (uuid "92ff587d-45c7-4ca5-835e-6d5d42c04ad9"))
+    (pin "43"
+      (uuid "20a60675-75ae-4798-ac29-f8cf83d97376"))
+    (pin "55"
+      (uuid "e526c086-c09e-4225-9cf0-40b386656bce"))
+    (pin "52"
+      (uuid "028cc650-4fb4-4d8a-abf5-e2d4a3123c56"))
+    (pin "61"
+      (uuid "cdedd218-3a67-4115-aeff-7478221ee120"))
+    (pin "63"
+      (uuid "0e13b427-8911-47e9-9546-bc01e989327e"))
+    (pin "64"
+      (uuid "e91628ef-4ef1-4722-878d-99173afb3bc4"))
+    (pin "20"
+      (uuid "e6df6b83-74ec-4ab2-972a-6088a67fb39d"))
+    (pin "22"
+      (uuid "25263c85-3540-432f-8a2a-a9e6d6100635"))
+    (pin "21"
+      (uuid "3f30b021-9077-42cb-b0a5-1714697b4af9"))
+    (pin "19"
+      (uuid "48d283bf-c5dd-4bd3-96e9-d34dd76e76f9"))
+    (pin "62"
+      (uuid "63afaf14-a8de-4e1a-ac10-3613e98baf39"))
+    (pin "50"
+      (uuid "903e53b7-7a33-4a7e-8536-0406269e217e"))
+    (pin "51"
+      (uuid "642eb5d2-e79d-44cf-8d4a-b91da52b761f"))
+    (pin "31"
+      (uuid "6f2833c3-0ed3-43f9-b037-bcb510521640"))
+    (pin "23"
+      (uuid "c38a00ad-0b6a-4c78-8ca3-40e3a0605fa1"))
+    (pin "48"
+      (uuid "9d80e414-81d1-4f7a-aaab-54010a5cffcc"))
+    (pin "32"
+      (uuid "4c6973d9-f58b-4266-a6f9-913f6c4d3bf0"))
+    (pin "33"
+      (uuid "e978f113-f8b4-4da6-8335-91739608b823"))
+    (pin "49"
+      (uuid "dfbc020d-8601-4c35-904b-0092bc650050"))
+    (pin "1"
+      (uuid "05b946ed-a328-4ef1-8812-0fa5fa88e66e"))
+    (pin "2"
+      (uuid "6bf25428-e2fa-4c7e-8280-fd38409c1475"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "U201")
+          (unit 2))))
+    (property "Manufacturer" "Texas Instruments"
+      (at 276.86 43.18 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "8-channel 24-bit EEG AFE; AVDD-AVSS4.75..5.25V; DVDD1.8..3.6V; TQFP64/PAG; no exposed pad"
+      (at 276.86 43.18 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 276.86 43.18 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:R")
+    (at 340.36 88.9 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "bccc222a-f45d-5698-938c-54877f4af120")
+    (property "Reference" "R207"
+      (at 344.17 86.36 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10k"
+      (at 344.17 90.17 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:R0402"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip/thick_film_general_purpose/rc"
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 0 0 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "2"
+      (uuid "3f56a6ae-45fe-4f9c-909f-1d7793af2255"))
+    (pin "1"
+      (uuid "3a08ba12-929b-4bcf-9a11-9e9f4eefe6e9"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "R207")
+          (unit 1))))
+    (property "Manufacturer" "Yageo"
+      (at 340.36 88.9 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "RC0402FR-0710KL"
+      (at 340.36 88.9 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "10kohm; +/-1%; 62.5mW at70C; 50V max; 0402; TCR +/-100ppm/C"
+      (at 340.36 88.9 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 340.36 88.9 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 355.6 231.14 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "db71135d-3c29-5303-959a-31470b7b3ce1")
+    (property "Reference" "C218"
+      (at 359.41 228.6 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 359.41 232.41 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at 218.44 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C104KA88D"
+      (at 218.44 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 218.44 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "75c6f5a6-4e73-495a-913b-5ebeeed62f82"))
+    (pin "2"
+      (uuid "833ccadb-5f50-4121-9464-e0b7f170c52b"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C218")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 355.6 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R71C104KA88D"
+      (at 355.6 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100nF; +/-10%; X7R; 16VDC; 0402; -55..125C"
+      (at 355.6 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 355.6 231.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 38.1 195.58 0)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "eece39d5-f1f5-5557-8c9b-319f8a02462e")
+    (property "Reference" "C204"
+      (at 41.91 193.04 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "1uF"
+      (at 41.91 196.85 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "EEG32:C0402"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "64c50cb3-37ae-4f35-916d-3adba83b43d1"))
+    (pin "2"
+      (uuid "b6af853d-3b76-4ef1-9d63-151890ff2221"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C204")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 38.1 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 38.1 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 38.1 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 38.1 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 190.5 195.58 180)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "eefb2a43-66cd-5b48-a208-3b2f0c007195")
+    (property "Reference" "C207"
+      (at 194.31 193.04 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Value" "100nF"
+      (at 194.31 196.85 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Footprint" "EEG32:C0402"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R71C104KA88D"
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at 2.54 7.62 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "665e9acd-415e-4dfa-a323-0fd9d39f00aa"))
+    (pin "2"
+      (uuid "10022742-dfa0-4950-84fc-d5f99cc8bc83"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C207")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 190.5 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R71C104KA88D"
+      (at 190.5 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "100nF; +/-10%; X7R; 16VDC; 0402; -55..125C"
+      (at 190.5 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 190.5 195.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (symbol
+    (lib_id "EEG32:C")
+    (at 195.58 157.48 180)
+    (unit 1)
+    (body_style 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (dnp no)
+    (uuid "fe37291a-5365-54d4-8f7e-4884abaee779")
+    (property "Reference" "C216"
+      (at 199.39 154.94 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Value" "1uF"
+      (at 199.39 158.75 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property "Footprint" "EEG32:C0402"
+      (at -43.18 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM155R61A105KE15D"
+      (at -43.18 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (property "Description" ""
+      (at -43.18 5.08 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1 1))))
+    (pin "1"
+      (uuid "780e2421-40c7-452e-9864-e78c920ccfcc"))
+    (pin "2"
+      (uuid "041fd58d-1bfe-41d1-8cee-08aedaac100d"))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930/6ce3fa20-9a3e-5005-8780-6054711ee169"
+          (reference "C216")
+          (unit 1))))
+    (property "Manufacturer" "Murata"
+      (at 195.58 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "MPN" "GRM155R61A105KE15D"
+      (at 195.58 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Electrical_Spec" "1uF; +/-10%; X5R; 10VDC; 0402; -55..85C"
+      (at 195.58 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Qualification" "Exact part specified; bench/process qualification pending"
+      (at 195.58 157.48 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27)))))
+  (text "ADS1299 #2  /  CH09-CH16"
+    (at 20 15 0)
+    (effects
+      (font
+        (size 2.7 2.7)
+        (bold yes))
+      (justify left top))
+    (uuid "96458f8a-2795-48ae-92a7-65324e92e48a"))
+  (text "PassiveInputs.kicad_sch RC bank -> EEG_CH09_ADC ... EEG_CH16_ADC | shared SRB1 reference"
+    (at 20 24 0)
+    (effects
+      (font
+        (size 1.4 1.4))
+      (justify left top))
+    (uuid "567b2f56-6ef0-418d-99bb-002ed66b7386"))
+  (text "ADC INPUTS / CONTROL"
+    (at 20 34 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+        (bold yes))
+      (justify left top))
+    (uuid "9af28553-6b19-455b-be77-0992c00eca34"))
+  (text "SUPPLIES / CONFIGURATION"
+    (at 232 32 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+        (bold yes))
+      (justify left top))
+    (uuid "fee9dc2e-95d3-4ba2-8b8d-bda5bd9026ce"))
+  (text "VCAP SUPPORT"
+    (at 20 143 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+        (bold yes))
+      (justify left top))
+    (uuid "e0696143-c311-4a80-a827-11d81380d6f1"))
+  (text "LOCAL ADC REFERENCE"
+    (at 263 143 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+        (bold yes))
+      (justify left top))
+    (uuid "96e943b3-b01b-441e-881a-73fb901a8746"))
+  (text "ANALOG SUPPLY BYPASS  /  +5VA"
+    (at 20 178 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+        (bold yes))
+      (justify left top))
+    (uuid "b67da861-69b7-41c8-bea0-56cfac04fd35"))
+  (text "DIGITAL BYPASS"
+    (at 337 178 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+        (bold yes))
+      (justify left top))
+    (uuid "ee827c67-f21f-4b23-858c-f77c58eb8af8"))
+  (text "PASSIVE COMMON-REFERENCE MODE"
+    (at 20 252 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+        (bold yes))
+      (justify left top))
+    (uuid "79432fd0-651d-49e1-b458-88a999b3c03c"))
+  (text "EEG_REF_ADC -> pin 17 / SRB1. Select MISC1.SRB1 in firmware; unused external INxN pins are NC.\nADC VREFP is local conversion reference, not the REF electrode. See ReferenceBias.kicad_sch."
+    (at 20 260 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left top))
+    (uuid "40b6ea65-ee87-4e3f-baff-ca501109b100"))
+  (text "SLAVE: CLKSEL pulled low; AFE1 supplies CLK.\nBIASOUT is intentionally NC; keep slave BIAS amplifier disabled."
+    (at 20 117 0)
+    (effects
+      (font
+        (size 1.2 1.2))
+      (justify left top))
+    (uuid "709eca24-26e5-43bb-9d2a-034c2d95a2ec"))
+  (wire
+    (pts
+      (xy 241.3 191.77)
+      (xy 241.3 186.69))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "695fdb00-51b2-47fe-be72-2b81a3d349e6"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 241.3 186.69 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "75ff50fe-c22e-496f-abb7-c6a592f4a55e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 241.3 186.69 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 241.3 199.39)
+      (xy 241.3 204.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "aeb69130-5a6e-4763-9540-c8f4ba264de0"))
+  (global_label "GND"
+    (shape passive)
+    (at 241.3 204.47 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "635d7f54-2945-498a-8092-92cd253d52d6")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 241.3 204.47 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 190.5 227.33)
+      (xy 190.5 222.25))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "77e59838-6c40-4ad1-89da-0c820d5a2b4c"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 190.5 222.25 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "f3085cec-cf75-4481-8088-488737aaedbc")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 190.5 222.25 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 190.5 234.95)
+      (xy 190.5 240.03))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "4626868a-82c3-4074-b0f3-9e5ecaf10ec2"))
+  (global_label "GND"
+    (shape passive)
+    (at 190.5 240.03 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "57dbb563-ac4c-4468-8caa-484a3883637d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 190.5 240.03 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 304.8 107.95)
+      (xy 304.8 102.87))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "002bdda7-2615-4f7b-8e3f-4f2787525556"))
+  (global_label "AFE2_GPIO3"
+    (shape passive)
+    (at 304.8 102.87 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "1c7fc55f-4d4c-4df5-8e45-1e669cb3ab07")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 304.8 102.87 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 304.8 115.57)
+      (xy 304.8 120.65))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a2705c70-5309-4b4c-9944-4484a6ddff76"))
+  (global_label "GND"
+    (shape passive)
+    (at 304.8 120.65 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "c5e66a14-763a-4151-a328-5a6ea203bc05")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 304.8 120.65 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 320.04 153.67)
+      (xy 320.04 148.59))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "97f3c29c-efb6-4770-87db-5840e05c6ace"))
+  (global_label "AFE2_VREFP"
+    (shape passive)
+    (at 320.04 148.59 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "76f0b72d-12f7-4bac-ac8f-5af8d86bbed5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 320.04 148.59 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 320.04 161.29)
+      (xy 320.04 166.37))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5c71709e-f5fa-4a76-936b-7321ce779147"))
+  (global_label "GND"
+    (shape passive)
+    (at 320.04 166.37 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "68275fed-cb9c-4ee2-86e4-9371b1487d3f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 320.04 166.37 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 355.6 199.39)
+      (xy 355.6 204.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "551332b9-26c0-4a84-8aaf-08c1887135bb"))
+  (global_label "GND"
+    (shape passive)
+    (at 355.6 204.47 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "a230f3dd-1124-4a8c-833d-af4c678c121f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 355.6 204.47 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 355.6 191.77)
+      (xy 355.6 186.69))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0f99de92-2e41-40e6-9898-e50c86b97ebe"))
+  (global_label "+3V3"
+    (shape passive)
+    (at 355.6 186.69 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "5cc5da85-07ab-49bb-896c-45a8d6fceff8")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 355.6 186.69 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 279.4 153.67)
+      (xy 279.4 148.59))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "abcd4b54-2493-4a48-b6c3-cbdd33e4c20b"))
+  (global_label "AFE2_VREFP"
+    (shape passive)
+    (at 279.4 148.59 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "353b61d4-1b22-46e6-ab72-0d20d1135c9a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 279.4 148.59 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 279.4 161.29)
+      (xy 279.4 166.37))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "753c54fa-d30e-431d-af67-ea389c434da5"))
+  (global_label "GND"
+    (shape passive)
+    (at 279.4 166.37 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "db2c4dfe-764c-431f-881d-7483f26168cb")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 279.4 166.37 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 139.7 227.33)
+      (xy 139.7 222.25))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5704736a-569f-444c-a912-6c52640533fb"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 139.7 222.25 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "e626d4e6-8a51-4d90-b1bd-2e05fe6f956d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 139.7 222.25 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 139.7 234.95)
+      (xy 139.7 240.03))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7fe6f52d-6291-47ff-8346-250ac7727e14"))
+  (global_label "GND"
+    (shape passive)
+    (at 139.7 240.03 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "cc339fdc-2d40-49e6-bff0-6e83ff7bd430")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 139.7 240.03 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 38.1 153.67)
+      (xy 38.1 148.59))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "022160c4-6a1d-4244-9120-e7d9a76d1902"))
+  (global_label "AFE2_VCAP1"
+    (shape passive)
+    (at 38.1 148.59 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "87254e09-fd91-422d-8cf7-6906d91a9bd2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 38.1 148.59 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 38.1 161.29)
+      (xy 38.1 166.37))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "42134c71-5ba8-406c-8053-cd7ac91b7e77"))
+  (global_label "GND"
+    (shape passive)
+    (at 38.1 166.37 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "cbb358cd-2b18-4fcb-9869-2c47e039e64d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 38.1 166.37 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 292.1 199.39)
+      (xy 292.1 204.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "53f8d89e-acbf-4741-82f8-73743e6dff0f"))
+  (global_label "GND"
+    (shape passive)
+    (at 292.1 204.47 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "b2d8d180-679d-4368-a4fd-cbc8dce0c695")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 292.1 204.47 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 292.1 191.77)
+      (xy 292.1 186.69))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "87694e58-f64a-4522-99af-dda2d15746b2"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 292.1 186.69 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "ec2da2c3-9421-4845-9f6b-e864a3c2208f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 292.1 186.69 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 88.9 199.39)
+      (xy 88.9 204.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7f5b23f8-cb61-4800-82e7-8ae5be379324"))
+  (global_label "GND"
+    (shape passive)
+    (at 88.9 204.47 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "97d6657c-cdd7-46b4-bc5e-165a4fa0e156")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 88.9 204.47 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 88.9 191.77)
+      (xy 88.9 186.69))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9773856c-f5fe-4671-b598-605ba471ad4b"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 88.9 186.69 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "12636007-7877-4e78-9d5a-aafdbb2473b7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 88.9 186.69 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 233.68 85.09)
+      (xy 233.68 80.01))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "57f54597-8d0c-4d73-a5d6-9ba24413245c"))
+  (global_label "AFE2_CLKSEL"
+    (shape passive)
+    (at 233.68 80.01 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "06a937ea-d0e2-4b97-908d-e06eecfa50f6")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 233.68 80.01 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 233.68 92.71)
+      (xy 233.68 97.79))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "17dc50b3-a1a0-4686-ae73-3b6927281861"))
+  (global_label "GND"
+    (shape passive)
+    (at 233.68 97.79 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "5096112d-e93d-4c01-bbab-244d5a8aa2bf")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 233.68 97.79 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 241.3 227.33)
+      (xy 241.3 222.25))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "dd771bff-0667-4e9e-9caa-da4df5e97aea"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 241.3 222.25 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "481d538c-ec75-4bbc-9f44-7529873132a1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 241.3 222.25 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 241.3 234.95)
+      (xy 241.3 240.03))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "126c8bf4-1f05-4254-8b12-e22616c7d271"))
+  (global_label "GND"
+    (shape passive)
+    (at 241.3 240.03 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "c9af077b-fc41-4f61-ad3d-543db267f7c1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 241.3 240.03 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 88.9 234.95)
+      (xy 88.9 240.03))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "4ffb2e3f-d2d4-4421-9e0d-e1811663a240"))
+  (global_label "GND"
+    (shape passive)
+    (at 88.9 240.03 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "5d9718fb-3678-47b2-b255-f816100c3969")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 88.9 240.03 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 88.9 227.33)
+      (xy 88.9 222.25))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "86200aa2-94d2-4b09-b4c5-a4deedf2dad0"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 88.9 222.25 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "0fd7f945-3993-49c5-9f4b-af6a7cd303b3")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 88.9 222.25 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 139.7 191.77)
+      (xy 139.7 186.69))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ab48e8c9-e956-4b7d-9442-216c89804e49"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 139.7 186.69 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "a2473253-21f9-4888-bb8b-92039647e1fb")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 139.7 186.69 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 139.7 199.39)
+      (xy 139.7 204.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "858ac1cd-da0c-4e44-a604-19814e898f24"))
+  (global_label "GND"
+    (shape passive)
+    (at 139.7 204.47 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "34fc609d-8dbc-4204-adae-f33e6d311929")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 139.7 204.47 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 154.94 161.29)
+      (xy 154.94 166.37))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "144cc98e-49f3-45e7-b807-33851c2d14ce"))
+  (global_label "GND"
+    (shape passive)
+    (at 154.94 166.37 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "78bd639b-1e1a-412e-a311-d95e49e1decf")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 154.94 166.37 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 154.94 153.67)
+      (xy 154.94 148.59))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2b0f03fa-5cd0-4f44-be9b-4f554c781f72"))
+  (global_label "AFE2_VCAP3"
+    (shape passive)
+    (at 154.94 148.59 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "917e1fc9-d6a5-4e66-b20e-a90f6c082c47")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 154.94 148.59 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 119.38 161.29)
+      (xy 119.38 166.37))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "719137ec-0a52-4f3b-b7bc-afff006cef04"))
+  (global_label "GND"
+    (shape passive)
+    (at 119.38 166.37 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "ddff484c-52a9-492c-819f-bac19efd4b9f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 119.38 166.37 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 119.38 153.67)
+      (xy 119.38 148.59))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e8fe6953-587e-425a-8383-aac7aba28c82"))
+  (global_label "AFE2_VCAP3"
+    (shape passive)
+    (at 119.38 148.59 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "3ea34a4b-52cb-476b-8334-3f9e375fa45a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 119.38 148.59 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 292.1 227.33)
+      (xy 292.1 222.25))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0abb3cb2-462a-4a2d-b55b-a46de3dc0f11"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 292.1 222.25 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "5bf169c6-eae8-4119-8835-db842c7d3657")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 292.1 222.25 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 292.1 234.95)
+      (xy 292.1 240.03))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "24b7c4a5-8be3-4be2-bc51-698b0f2ee919"))
+  (global_label "GND"
+    (shape passive)
+    (at 292.1 240.03 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "17aadb61-7ef8-44f6-a6ce-34b2a7478aa7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 292.1 240.03 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 233.68 107.95)
+      (xy 233.68 102.87))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d54b3ed7-2fe9-42b1-86d4-8ae23ad321bc"))
+  (global_label "AFE2_GPIO1"
+    (shape passive)
+    (at 233.68 102.87 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "bbd361de-4aa9-4429-97fe-4cce1f612266")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 233.68 102.87 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 233.68 115.57)
+      (xy 233.68 120.65))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c6e52e66-0fef-4c9b-b5ec-77458c749063"))
+  (global_label "GND"
+    (shape passive)
+    (at 233.68 120.65 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "e2f27b48-97b1-423f-927e-db5707ba5dbb")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 233.68 120.65 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 78.74 161.29)
+      (xy 78.74 166.37))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "733ff624-9c7d-43ff-94bc-8d305bfaf429"))
+  (global_label "GND"
+    (shape passive)
+    (at 78.74 166.37 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "976da042-4aaf-45cf-9437-ee8bc461e2a5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 78.74 166.37 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 78.74 153.67)
+      (xy 78.74 148.59))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "98bea234-9c42-492a-85e1-70ade8e0295f"))
+  (global_label "AFE2_VCAP2"
+    (shape passive)
+    (at 78.74 148.59 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "a7027d3e-9f16-4452-a68e-3185c826af0c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 78.74 148.59 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 269.24 107.95)
+      (xy 269.24 102.87))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6d843f7e-4a30-43f7-b8a4-024a1d80ba15"))
+  (global_label "AFE2_GPIO2"
+    (shape passive)
+    (at 269.24 102.87 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "ea22a320-d8fb-4e14-a572-7b76b0268218")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 269.24 102.87 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 269.24 115.57)
+      (xy 269.24 120.65))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c12ec5d4-8371-414c-bb28-3146b7c14b19"))
+  (global_label "GND"
+    (shape passive)
+    (at 269.24 120.65 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "52790a97-9665-4102-a75a-55b6930c0709")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 269.24 120.65 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 38.1 227.33)
+      (xy 38.1 222.25))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a1f1549c-8697-4316-adb5-aa446a8568ae"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 38.1 222.25 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "ed38f4e4-ea7a-4514-9aab-8c5b445cb243")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 38.1 222.25 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 38.1 234.95)
+      (xy 38.1 240.03))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7403cb29-5031-4527-806d-9ecdd3c66208"))
+  (global_label "GND"
+    (shape passive)
+    (at 38.1 240.03 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "e3841cd1-8f15-49ab-8f68-c86bf8d3bb91")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 38.1 240.03 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 340.36 107.95)
+      (xy 340.36 102.87))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5ec41f0d-fadb-4570-8a55-98569f871322"))
+  (global_label "AFE2_GPIO4"
+    (shape passive)
+    (at 340.36 102.87 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "3a049365-9116-44e0-a99a-a528fbf83fd4")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 340.36 102.87 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 340.36 115.57)
+      (xy 340.36 120.65))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d1aa969b-7f7c-4924-81a7-e2544d1ea646"))
+  (global_label "GND"
+    (shape passive)
+    (at 340.36 120.65 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "ec3d9e22-0fea-4922-852c-a950c7f0e962")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 340.36 120.65 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 76.2)
+    (uuid "64c37081-26e6-4a35-ae80-5336abe6e58c"))
+  (wire
+    (pts
+      (xy 127 73.66)
+      (xy 132.08 73.66))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ec2d699e-1f47-4618-b5fc-5f29a8fd0717"))
+  (global_label "EEG_CH16_ADC"
+    (shape passive)
+    (at 132.08 73.66 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "679cec19-36df-48c2-a19b-31ffbe8d52bd")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 73.66 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 71.12)
+    (uuid "885474e7-654a-40ce-8656-3d28ccf38201"))
+  (wire
+    (pts
+      (xy 127 68.58)
+      (xy 132.08 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0f442ee2-67f0-4db9-af23-cdde0fb51f9a"))
+  (global_label "EEG_CH15_ADC"
+    (shape passive)
+    (at 132.08 68.58 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "69370c97-1630-4306-a54f-3a192f191552")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 68.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 66.04)
+    (uuid "87dd8e6f-37de-44fb-9df6-7ead5d107c64"))
+  (wire
+    (pts
+      (xy 127 63.5)
+      (xy 132.08 63.5))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b253168a-be37-40dc-9a59-9fa778e58944"))
+  (global_label "EEG_CH14_ADC"
+    (shape passive)
+    (at 132.08 63.5 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "b0699f2f-d20d-4908-a09a-9a269795b5a9")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 63.5 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 60.96)
+    (uuid "d1fb6f92-773f-4960-af69-1d8586b6f6c9"))
+  (wire
+    (pts
+      (xy 127 58.42)
+      (xy 132.08 58.42))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ff638d32-5dc3-4cdc-93ea-d539b293495f"))
+  (global_label "EEG_CH13_ADC"
+    (shape passive)
+    (at 132.08 58.42 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "a89b11b2-54ea-42cc-bb81-49f8f125c889")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 58.42 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 55.88)
+    (uuid "cbbf5fe4-995e-4a1d-90f1-b64ac79b9bcc"))
+  (wire
+    (pts
+      (xy 127 53.34)
+      (xy 132.08 53.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0dc2dae0-5d94-4b19-8cce-5999bef7f5e4"))
+  (global_label "EEG_CH12_ADC"
+    (shape passive)
+    (at 132.08 53.34 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "40b5c7d8-edc9-4839-8a51-7349d4dbb59f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 53.34 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 50.8)
+    (uuid "d519c84e-a156-4166-9dc9-c4b09fef9bc1"))
+  (wire
+    (pts
+      (xy 127 48.26)
+      (xy 132.08 48.26))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "34d53fc1-589e-4ebc-9913-d47f2a73c0ff"))
+  (global_label "EEG_CH11_ADC"
+    (shape passive)
+    (at 132.08 48.26 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "31ea2cac-a21d-43c2-a12b-44774c65eadc")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 48.26 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 45.72)
+    (uuid "54a65d41-8c19-4485-8faf-742174fadb54"))
+  (wire
+    (pts
+      (xy 127 43.18)
+      (xy 132.08 43.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a3a4de28-edae-4441-834d-4185a3c1bb83"))
+  (global_label "EEG_CH10_ADC"
+    (shape passive)
+    (at 132.08 43.18 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "dc88324f-e9ca-481f-999f-d15a74e80341")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 43.18 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 40.64)
+    (uuid "efa7351f-0da1-4346-a592-3ffb31d65363"))
+  (wire
+    (pts
+      (xy 127 38.1)
+      (xy 132.08 38.1))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "abf3a2c8-69b7-4e68-a7b7-45288d105d07"))
+  (global_label "EEG_CH09_ADC"
+    (shape passive)
+    (at 132.08 38.1 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "36e2a81c-2002-4143-ad4f-91224a0fe2cc")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 38.1 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 127 86.36)
+      (xy 132.08 86.36))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "74f241c0-6a9f-42e4-bcaa-1b2adc99f37f"))
+  (global_label "EEG_REF_ADC"
+    (shape passive)
+    (at 132.08 86.36 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "03797c4e-9e0a-48be-8f5d-6b87dd2daea3")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 86.36 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 88.9)
+    (uuid "9ecddaea-4977-40f8-bcbb-21a2eb099a74"))
+  (wire
+    (pts
+      (xy 127 106.68)
+      (xy 132.08 106.68))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1c43e5e9-39a9-4c9e-bf16-99a87487ec62"))
+  (global_label "AFE2_VREFP"
+    (shape passive)
+    (at 132.08 106.68 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "dda34394-1393-46a1-9293-25be4d640a7b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 106.68 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 127 109.22)
+      (xy 132.08 109.22))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e93c46f6-5a5e-4b48-adcf-7a9089a8ce0b"))
+  (global_label "GND"
+    (shape passive)
+    (at 132.08 109.22 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "54ca5240-f48d-491b-9470-71da0778f9a6")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 109.22 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 109.22)
+      (xy 81.28 109.22))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5d3c14d3-4e46-4890-8ad4-abe707221572"))
+  (global_label "AFE2_VCAP4"
+    (shape passive)
+    (at 81.28 109.22 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "1e1d2029-d6f4-4b3f-bbf9-dca7cf6d565d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 109.22 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 86.36 93.98)
+    (uuid "85e9fcf2-a284-4e77-820c-c941dcf95712"))
+  (wire
+    (pts
+      (xy 86.36 101.6)
+      (xy 81.28 101.6))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "943c7ea4-6254-4619-99fc-ea28e1de2283"))
+  (global_label "AFE2_VCAP1"
+    (shape passive)
+    (at 81.28 101.6 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "02abb4ef-f5d7-44dc-8df4-f4f64bd7cb96")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 101.6 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 86.36 96.52)
+    (uuid "567224af-997a-4126-b5e9-3b942b32a322"))
+  (wire
+    (pts
+      (xy 86.36 104.14)
+      (xy 81.28 104.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c9ee606f-825b-45fe-8bce-fc51e9f8d05c"))
+  (global_label "AFE2_VCAP2"
+    (shape passive)
+    (at 81.28 104.14 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "049c5e3f-a2a6-4196-8ace-58b1255f9a26")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 104.14 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 40.64)
+      (xy 81.28 40.64))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6926ca80-d9f7-453e-ad2f-d15d99036aea"))
+  (global_label "SPI_MOSI"
+    (shape passive)
+    (at 81.28 40.64 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "c2b9b2b9-cb91-426d-86f1-6150e7537fec")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 40.64 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 78.74)
+      (xy 81.28 78.74))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "40c113a5-5117-4e89-a923-bd254c2b0f5d"))
+  (global_label "AFE_PWDN_N"
+    (shape passive)
+    (at 81.28 78.74 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "8ac91426-149d-41fa-9859-88f870126caa")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 78.74 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 76.2)
+      (xy 81.28 76.2))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "3e0854f3-e7ba-454b-9784-052aa231a159"))
+  (global_label "AFE_RESET_SLAVES_N"
+    (shape passive)
+    (at 81.28 76.2 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "a9d7c177-755b-4791-b22a-0b72f7da70b4")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 76.2 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 53.34)
+      (xy 81.28 53.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e2aad3db-b433-4d2d-b94c-59e0ed1508e6"))
+  (global_label "AFE_CLK"
+    (shape passive)
+    (at 81.28 53.34 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "cf168f2e-7bc0-4476-86d4-ce6bbc438d9d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 53.34 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 73.66)
+      (xy 81.28 73.66))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8e2e5a86-7abf-4a39-b98d-85ceea232de5"))
+  (global_label "AFE_START"
+    (shape passive)
+    (at 81.28 73.66 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "76bdef17-dd9d-4ab5-8230-fde0f2e579b9")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 73.66 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 45.72)
+      (xy 81.28 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e4dcec80-e2b4-4360-8eda-02624deb19a9"))
+  (global_label "AFE2_CS_N"
+    (shape passive)
+    (at 81.28 45.72 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "e372d733-1d74-49ae-b2b0-49afee727a2a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 45.72 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 38.1)
+      (xy 81.28 38.1))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d1aa752d-2d84-4553-a33d-67393ae85728"))
+  (global_label "SPI_SCLK"
+    (shape passive)
+    (at 81.28 38.1 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "dba0f421-4981-4b3e-b6dc-70032a93eeb8")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 38.1 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 127 81.28)
+      (xy 132.08 81.28))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e39adaf5-3dde-43b9-a5b8-5c255610b73c"))
+  (global_label "GND"
+    (shape passive)
+    (at 132.08 81.28 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "58163e0f-ceb3-4388-ba19-60c387251f68")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 81.28 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 60.96)
+      (xy 81.28 60.96))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d848e572-c345-4a73-b202-b60f4866aa9c"))
+  (global_label "AFE2_GPIO1"
+    (shape passive)
+    (at 81.28 60.96 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "74535e25-4a21-4576-be85-265911c71e9b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 60.96 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 43.18)
+      (xy 81.28 43.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "842de067-25dc-45eb-9bc9-3d972542edf3"))
+  (global_label "AFE2_DOUT"
+    (shape passive)
+    (at 81.28 43.18 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "fc9efcd2-054f-4c7a-8828-53b23bed8e37")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 43.18 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 63.5)
+      (xy 81.28 63.5))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "4df815be-628c-4c16-8c95-9038fc8f96ac"))
+  (global_label "AFE2_GPIO2"
+    (shape passive)
+    (at 81.28 63.5 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "b43ce442-c5ab-4ccc-8e04-3b65b8086327")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 63.5 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 66.04)
+      (xy 81.28 66.04))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5122886c-c7cc-47cb-8c8d-682ea2267823"))
+  (global_label "AFE2_GPIO3"
+    (shape passive)
+    (at 81.28 66.04 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "9b74a182-2960-4063-bcf6-e315fca96faa")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 66.04 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 68.58)
+      (xy 81.28 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7296b254-eaaf-405c-ad6b-c42db0ed2a5d"))
+  (global_label "AFE2_GPIO4"
+    (shape passive)
+    (at 81.28 68.58 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "9719a85a-a577-4a0e-8648-29342ef1da89")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 68.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 48.26)
+      (xy 81.28 48.26))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5873f48d-dd71-4ab4-ae40-4b7df61ffbc1"))
+  (global_label "AFE2_DRDY_N"
+    (shape passive)
+    (at 81.28 48.26 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "f27b192b-e00b-48ba-9129-9a24bea1738b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 48.26 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 55.88)
+      (xy 81.28 55.88))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7a76ed2a-0218-44c4-97a0-90a26da0a4c3"))
+  (global_label "AFE2_CLKSEL"
+    (shape passive)
+    (at 81.28 55.88 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "9e940b78-ebb0-4ffe-b4e4-37a7ec97d5ef")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 55.88 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 86.36 106.68)
+      (xy 81.28 106.68))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "aa1b8187-1111-49a0-b0a6-e541b99ee3a0"))
+  (global_label "AFE2_VCAP3"
+    (shape passive)
+    (at 81.28 106.68 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "43b296e6-4f18-4762-907c-a8270b39c411")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 81.28 106.68 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 93.98)
+    (uuid "7456a3eb-9ab6-451f-87b4-8d9082821cf9"))
+  (wire
+    (pts
+      (xy 127 96.52)
+      (xy 132.08 96.52))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "53ac0812-54c9-4d1e-ac71-9e958fb9192c"))
+  (global_label "BIAS_SUM"
+    (shape passive)
+    (at 132.08 96.52 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "3706dd86-f939-4edb-9849-192b2fc9aa7a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 96.52 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 127 101.6)
+      (xy 132.08 101.6))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "97bd1a7c-f0cf-4988-b387-8422b788f66f"))
+  (global_label "BIAS_DRIVE"
+    (shape passive)
+    (at 132.08 101.6 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "4f4f839a-75c9-4e2a-bf49-63151a886135")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 101.6 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (no_connect
+    (at 127 99.06)
+    (uuid "9da6bb22-6c0a-47c4-8450-1d183dd04339"))
+  (no_connect
+    (at 86.36 86.36)
+    (uuid "9d0246fc-1614-4be5-9ee9-cc64723bcbb3"))
+  (wire
+    (pts
+      (xy 271.78 50.8)
+      (xy 266.7 50.8))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f4d1fc92-e4a2-4cac-9844-c414e84cf77a"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 266.7 50.8 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "faabcfd5-fe51-48ec-a9dd-381ec4a1635a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 266.7 50.8 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 50.8)
+      (xy 307.34 50.8))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "06e00219-326a-49d6-a58f-6bb1590bb7ee"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 50.8 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "0b297c11-2e4e-4907-a749-a8e48386429a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 50.8 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 271.78 53.34)
+      (xy 266.7 53.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f0864f95-887a-48de-a075-0b8584afc745"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 266.7 53.34 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "f382a83a-723c-4d02-8cc7-d2ee9a5edb99")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 266.7 53.34 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 271.78 55.88)
+      (xy 266.7 55.88))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6ce32235-d186-4e06-a3ec-a13155b762d0"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 266.7 55.88 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "c8ac876a-64d2-4920-b539-a0a60752f91f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 266.7 55.88 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 53.34)
+      (xy 307.34 53.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "65f44336-50f7-4b06-ab4c-f0d690234d4f"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 53.34 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "ef5195a2-2b5a-40a2-85aa-947037b23c60")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 53.34 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 66.04)
+      (xy 307.34 66.04))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "805b95f8-837b-49a8-b9ef-0e3987dc03e5"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 66.04 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "aff95dcc-f363-4c3c-8509-4cce63a2d21a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 66.04 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 55.88)
+      (xy 307.34 55.88))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7366c388-4af2-47f0-9d1e-682c98a81e13"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 55.88 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "2972c0cd-d56a-4b71-8ecc-22bfa03f855b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 55.88 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 68.58)
+      (xy 307.34 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f7b2fccd-827a-4926-969f-d12067208305"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 68.58 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "5cecf9f0-c55c-49ed-bd13-c7d1681be744")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 68.58 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 271.78 71.12)
+      (xy 266.7 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "052275b7-cc29-41e2-b4e6-117f20fa2dcd"))
+  (global_label "+3V3"
+    (shape passive)
+    (at 266.7 71.12 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "8aeae759-22f7-4bd1-96b7-a929f6c2df48")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 266.7 71.12 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 71.12)
+      (xy 307.34 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2073b377-fdfa-42fc-a4e6-b9af7ee6b3c2"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 71.12 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "0d24ecfe-7317-4b55-9bf7-7491143e9daa")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 71.12 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 271.78 73.66)
+      (xy 266.7 73.66))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1de470c0-dc6c-4d3d-9dd9-f3af099ce914"))
+  (global_label "+3V3"
+    (shape passive)
+    (at 266.7 73.66 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "e4906fa7-70f4-45a2-9a65-5f17645a64f8")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 266.7 73.66 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 73.66)
+      (xy 307.34 73.66))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "cb265ef8-9a06-48df-b6f0-cdc77aceccbd"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 73.66 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "cf58c226-abb5-4803-a695-5fc3aa0a32ae")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 73.66 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 45.72)
+      (xy 307.34 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e8b961d0-adb6-4556-8b67-bb7646805002"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 45.72 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "d21c99df-63a9-4ee7-99ec-1ef25b428f3b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 45.72 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 271.78 45.72)
+      (xy 266.7 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d4514318-599a-4e66-802b-5b64ee88dc49"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 266.7 45.72 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "bb4f1be8-8302-4729-876a-9a19bfe362a7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 266.7 45.72 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 271.78 58.42)
+      (xy 266.7 58.42))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c4bb7c42-f4ed-42d2-aee5-47f05fd0135a"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 266.7 58.42 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "03408c18-bab4-45dc-94bd-cc1a6452e010")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 266.7 58.42 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 58.42)
+      (xy 307.34 58.42))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9649ca90-7497-47f6-b66a-834881177d64"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 58.42 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "47f113c1-ad30-43b3-8519-64ab4f1a6738")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 58.42 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 302.26 60.96)
+      (xy 307.34 60.96))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2118d660-57c1-4f7e-9730-9784f1e1a6cc"))
+  (global_label "GND"
+    (shape passive)
+    (at 307.34 60.96 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "c407b211-0a18-4b18-8cda-94c631ea5b87")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 307.34 60.96 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 271.78 60.96)
+      (xy 266.7 60.96))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8f369c68-301a-4477-8378-36c4ed6fd4ef"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 266.7 60.96 180)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "eb16be9e-86ed-456d-9100-87e42a4fb63a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 266.7 60.96 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 340.36 85.09)
+      (xy 340.36 80.01))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "245ebaa3-540d-4530-aa7d-41fc6ce5d64a"))
+  (global_label "AFE2_CS_N"
+    (shape passive)
+    (at 340.36 80.01 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "999269a4-566b-4f40-a6e3-ca410c45d102")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 340.36 80.01 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 340.36 92.71)
+      (xy 340.36 97.79))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e1446b31-475b-4699-a4d1-2fbf70088a10"))
+  (global_label "+3V3"
+    (shape passive)
+    (at 340.36 97.79 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "0732dd06-7369-4f6e-9c27-8b0a13d518c1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 340.36 97.79 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 355.6 227.33)
+      (xy 355.6 222.25))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ef7aee69-1a96-4e27-ada0-5123d1bc7bac"))
+  (global_label "+3V3"
+    (shape passive)
+    (at 355.6 222.25 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "2175c215-2739-405b-b595-2a22348b3b64")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 355.6 222.25 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 355.6 234.95)
+      (xy 355.6 240.03))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "52d68cb9-aa8b-44f0-a907-c2c1e41b2d6b"))
+  (global_label "GND"
+    (shape passive)
+    (at 355.6 240.03 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "2a857755-62df-4e4a-b8b3-6e6e93cd3194")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 355.6 240.03 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 38.1 191.77)
+      (xy 38.1 186.69))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a165ca9a-3ac4-4c21-b6ab-c6aa8965807d"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 38.1 186.69 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "69e96664-1c58-4ebc-8ce0-5d1039dd87b2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 38.1 186.69 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 38.1 199.39)
+      (xy 38.1 204.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2ddeed3f-5c05-4b8c-8143-90f57a535fbc"))
+  (global_label "GND"
+    (shape passive)
+    (at 38.1 204.47 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "f20eab25-5163-4acd-a964-f1790f31f174")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 38.1 204.47 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 190.5 199.39)
+      (xy 190.5 204.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b64529cf-b304-44ec-9e59-022248195724"))
+  (global_label "GND"
+    (shape passive)
+    (at 190.5 204.47 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "586bcd36-63e6-43b8-a2c7-11bbc16a3849")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 190.5 204.47 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 190.5 191.77)
+      (xy 190.5 186.69))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "de1ca631-352f-4395-815f-6b75d3efe088"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 190.5 186.69 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "96a74d67-d0b0-4d0d-b483-b055c033b896")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 190.5 186.69 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 195.58 161.29)
+      (xy 195.58 166.37))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "54c0282b-c577-4db7-9566-ce89927d91b2"))
+  (global_label "GND"
+    (shape passive)
+    (at 195.58 166.37 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "1bb1af29-dbfe-4d08-944e-951c5a636815")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 195.58 166.37 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (wire
+    (pts
+      (xy 195.58 153.67)
+      (xy 195.58 148.59))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bdfc3898-87aa-437f-ac00-19bca17c5f34"))
+  (global_label "AFE2_VCAP4"
+    (shape passive)
+    (at 195.58 148.59 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "da487715-ecb6-46f8-956f-c8747f406261")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 195.58 148.59 0)
+      (hide yes)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))))
+  (text "PASSIVE INPUT BANK"
+    (at 149 35 0)
+    (effects
+      (font
+        (size 1.6 1.6)
+        (bold yes))
+      (justify left top))
+    (uuid "d184115a-f66c-47b4-a6ea-e9a58213c830"))
+  (text "CH09: J601.9 -> R609 -> IN1P / pin 16\nCH10: J601.10 -> R610 -> IN2P / pin 14\nCH11: J601.11 -> R611 -> IN3P / pin 12\nCH12: J601.12 -> R612 -> IN4P / pin 10\nCH13: J601.13 -> R613 -> IN5P / pin 8\nCH14: J601.14 -> R614 -> IN6P / pin 6\nCH15: J601.15 -> R615 -> IN7P / pin 4\nCH16: J601.16 -> R616 -> IN8P / pin 2"
+    (at 149 44 0)
+    (effects
+      (font
+        (size 1.15 1.15))
+      (justify left top))
+    (uuid "2eefb64d-ed00-4b00-af21-ef3c41cef340")))

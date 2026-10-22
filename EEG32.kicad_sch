@@ -1,0 +1,558 @@
+(kicad_sch
+  (version 20260306)
+  (generator "eeschema")
+  (generator_version "10.0")
+  (uuid "a3f414b3-f8ac-5c46-9971-7d7b2f6f4930")
+  (paper "A3")
+  (title_block
+    (title "EEG32 passive | system overview")
+    (date "2026-10-01")
+    (rev "2.1-prefab-bench")
+    (comment 1 "Passive bench prototype | protection and footprint release review pending"))
+  (lib_symbols)
+  (sheet
+    (at 151 171)
+    (size 103 32)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.254)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "19b76272-dd1a-59bb-bdf7-e03ebcd92607")
+    (property "Sheetname" "CH25-CH32 / synchronous AFE"
+      (at 151 171 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Sheetfile" "AFE4.kicad_sch"
+      (at 151 171 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930"
+          (page "5")))))
+  (sheet
+    (at 285 177)
+    (size 111 63)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.254)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "6214f5d1-86e9-5220-96cb-6008cccc3d94")
+    (property "Sheetname" "Battery input / 3.3V LDO / 5V boost / REF and BIAS access"
+      (at 285 177 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Sheetfile" "Power.kicad_sch"
+      (at 285 177 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930"
+          (page "7")))))
+  (sheet
+    (at 151 85)
+    (size 103 32)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.254)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "6ce3fa20-9a3e-5005-8780-6054711ee169")
+    (property "Sheetname" "CH09-CH16 / synchronous AFE"
+      (at 151 85 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Sheetfile" "AFE2.kicad_sch"
+      (at 151 85 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930"
+          (page "3")))))
+  (sheet
+    (at 151 128)
+    (size 103 32)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.254)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "b4fb1173-fa25-5afa-afd9-7246d48810f4")
+    (property "Sheetname" "CH17-CH24 / synchronous AFE"
+      (at 151 128 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Sheetfile" "AFE3.kicad_sch"
+      (at 151 128 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930"
+          (page "4")))))
+  (sheet
+    (at 151 42)
+    (size 103 32)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.254)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "ca9652a3-1619-535b-bfd1-702b5831ba12")
+    (property "Sheetname" "CH01-CH08 / clock and BIAS master"
+      (at 151 42 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Sheetfile" "AFE1.kicad_sch"
+      (at 151 42 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930"
+          (page "2")))))
+  (sheet
+    (at 285 73)
+    (size 111 71)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (stroke
+      (width 0.254)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "dba4b3aa-9566-5b4b-b183-58ad1f8354de")
+    (property "Sheetname" "nRF52832 / BLE / synchronized acquisition control"
+      (at 285 73 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Sheetfile" "MCU.kicad_sch"
+      (at 285 73 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930"
+          (page "6")))))
+  (sheet_instances
+    (path "/"
+      (page "1")))
+  (embedded_fonts no)
+  (sheet
+    (at 20 50)
+    (size 103 112)
+    (stroke
+      (width 0.254)
+      (type default))
+    (fill
+      (color 0 0 0 0))
+    (uuid "ecedbb15-76ea-5a83-9c76-e5890cfdcfd2")
+    (property "Sheetname" "PassiveInputs"
+      (at 20 50 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Sheetfile" "PassiveInputs.kicad_sch"
+      (at 20 50 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930"
+          (page "8")))))
+  (sheet
+    (at 20 178)
+    (size 103 62)
+    (stroke
+      (width 0.254)
+      (type default))
+    (fill
+      (color 0 0 0 0))
+    (uuid "f89c82ac-f7c0-5c50-9a9f-71b104f1ba5d")
+    (property "Sheetname" "ReferenceBias"
+      (at 20 178 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (property "Sheetfile" "ReferenceBias.kicad_sch"
+      (at 20 178 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left))
+      (hide yes))
+    (instances
+      (project "EEG32"
+        (path "/a3f414b3-f8ac-5c46-9971-7d7b2f6f4930"
+          (page "9")))))
+  (text "ADS1299 #4 / U401"
+    (at 156 176 0)
+    (effects
+      (font
+        (size 1.8 1.8)
+        (bold yes))
+      (justify left top))
+    (uuid "ebc1d30e-d72f-4cd5-9861-60b2f690ca66"))
+  (text "CH25-CH32 / AFE4.kicad_sch"
+    (at 156 185 0)
+    (effects
+      (font
+        (size 1.35 1.35))
+      (justify left top))
+    (uuid "37b71d24-7939-43cd-a16e-abfe403eb37f"))
+  (text "Shared clock / START"
+    (at 156 194 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left top))
+    (uuid "97e14d00-bf2f-408a-b874-fbb6fb602fdd"))
+  (text "ADS1299 #2 / U201"
+    (at 156 90 0)
+    (effects
+      (font
+        (size 1.8 1.8)
+        (bold yes))
+      (justify left top))
+    (uuid "43fa2439-8f2e-4957-a9dc-8a76c529325d"))
+  (text "CH09-CH16 / AFE2.kicad_sch"
+    (at 156 99 0)
+    (effects
+      (font
+        (size 1.35 1.35))
+      (justify left top))
+    (uuid "37cd2a11-1275-4c3c-a345-311de19afbb1"))
+  (text "Shared clock / START"
+    (at 156 108 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left top))
+    (uuid "efbd924a-fa36-4041-a657-079978406ae2"))
+  (text "ADS1299 #3 / U301"
+    (at 156 133 0)
+    (effects
+      (font
+        (size 1.8 1.8)
+        (bold yes))
+      (justify left top))
+    (uuid "023b0a8d-0f64-4898-a1f0-be5f28bc3dff"))
+  (text "CH17-CH24 / AFE3.kicad_sch"
+    (at 156 142 0)
+    (effects
+      (font
+        (size 1.35 1.35))
+      (justify left top))
+    (uuid "09433e66-4989-47f6-a10a-ded855686a09"))
+  (text "Shared clock / START"
+    (at 156 151 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left top))
+    (uuid "defe5d7f-17a9-49b6-b41b-068d2cc939bd"))
+  (text "ADS1299 #1 / U101"
+    (at 156 47 0)
+    (effects
+      (font
+        (size 1.8 1.8)
+        (bold yes))
+      (justify left top))
+    (uuid "bc29188d-1c2c-4cbf-8d29-217eda168ad6"))
+  (text "CH01-CH08 / AFE1.kicad_sch"
+    (at 156 56 0)
+    (effects
+      (font
+        (size 1.35 1.35))
+      (justify left top))
+    (uuid "d89379d0-9ccb-40e6-9ec7-7294c02e3ece"))
+  (text "Clock + BIAS master"
+    (at 156 65 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left top))
+    (uuid "203d8b77-d2ff-4ca3-bb54-e5660ba8c3ac"))
+  (text "EEG32  /  PASSIVE WEARABLE ACQUISITION"
+    (at 20 15 0)
+    (effects
+      (font
+        (size 3 3)
+        (bold yes))
+      (justify left top))
+    (uuid "68a78bad-abc8-45ef-939d-194a38eb6f92"))
+  (text "32 simultaneous channels | shared REF + separate BIAS | 500 SPS/channel target"
+    (at 20 27 0)
+    (effects
+      (font
+        (size 1.6 1.6))
+      (justify left top))
+    (uuid "d300b88b-d6cf-448a-b89c-ea4184886053"))
+  (text "PASSIVE ELECTRODES"
+    (at 25 56 0)
+    (effects
+      (font
+        (size 1.8 1.8)
+        (bold yes))
+      (justify left top))
+    (uuid "3d080d60-3899-4100-9314-5c7c0ed1dcb4"))
+  (text "32 signals + REF + BIAS\nOne physical electrode harness\nJ601 / 40-contact low-profile FFC\n\n4.99k / 4.7nF input filters\nNo electrode power or buffers\n\nPassiveInputs.kicad_sch"
+    (at 25 69 0)
+    (effects
+      (font
+        (size 1.4 1.4))
+      (justify left top))
+    (uuid "e0ac6379-19f7-4eca-9e53-8a9e947afae2"))
+  (text "REF / BIAS"
+    (at 25 184 0)
+    (effects
+      (font
+        (size 1.8 1.8)
+        (bold yes))
+      (justify left top))
+    (uuid "8acd1340-f54b-4ae0-901b-182b9d73fd2b"))
+  (text "REF -> RC -> four SRB1 pins\nU101 BIAS -> R634 -> electrode\nREF and BIAS remain separate.\nReferenceBias.kicad_sch"
+    (at 25 197 0)
+    (effects
+      (font
+        (size 1.35 1.35))
+      (justify left top))
+    (uuid "bcf4b2a6-28ea-470a-a588-3a2b9c40a0ed"))
+  (text "nRF52832 / BLE"
+    (at 290 79 0)
+    (effects
+      (font
+        (size 1.8 1.8)
+        (bold yes))
+      (justify left top))
+    (uuid "aedde178-cc14-4b89-82e5-0a485aef041b"))
+  (text "Four CS / DOUT / DRDY groups\nShared SCLK / MOSI / START\nLatest MCU pin assignments kept\nBLE RF network retained\nMCU.kicad_sch"
+    (at 290 93 0)
+    (effects
+      (font
+        (size 1.4 1.4))
+      (justify left top))
+    (uuid "46bb7180-c4bb-43e2-b152-b70ee4ea81ee"))
+  (text "POWER"
+    (at 290 183 0)
+    (effects
+      (font
+        (size 1.8 1.8)
+        (bold yes))
+      (justify left top))
+    (uuid "4cc738fe-5003-43d2-8551-f1111c3e223d"))
+  (text "P2: VBAT\nU2: +3V3 digital\nU3: +5VA analog\nCommon GND, four-layer PCB\nPower.kicad_sch"
+    (at 290 196 0)
+    (effects
+      (font
+        (size 1.4 1.4))
+      (justify left top))
+    (uuid "3ab804e2-06af-4a7f-8fc2-ada9319540f2"))
+  (polyline
+    (pts
+      (xy 124 58)
+      (xy 149 58))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "6616d2fd-4324-4b19-973c-c38aa73fa90a"))
+  (polyline
+    (pts
+      (xy 254 58)
+      (xy 270 58))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "7fe6c8cb-221c-465f-8444-8a35623eb538"))
+  (polyline
+    (pts
+      (xy 124 101)
+      (xy 149 101))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "2aef2513-76a5-4f17-92f3-1342137b8886"))
+  (polyline
+    (pts
+      (xy 254 101)
+      (xy 270 101))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "be6ea604-0a0c-4be3-a853-9f210d7917a2"))
+  (polyline
+    (pts
+      (xy 124 144)
+      (xy 149 144))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "a9d19cf3-9816-46a0-a1be-71bebc2732ad"))
+  (polyline
+    (pts
+      (xy 254 144)
+      (xy 270 144))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "25684343-e69f-41c7-b526-f5a0c64d95b3"))
+  (polyline
+    (pts
+      (xy 124 187)
+      (xy 149 187))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "07aee91f-bec7-4f6c-a16f-4c3f82e8b621"))
+  (polyline
+    (pts
+      (xy 254 187)
+      (xy 270 187))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "ad527696-7f12-4e07-a1a3-5856c292f6f2"))
+  (polyline
+    (pts
+      (xy 270 58)
+      (xy 270 187))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "306745da-8478-4e2b-8f13-93d43f50bd41"))
+  (polyline
+    (pts
+      (xy 270 108)
+      (xy 282 108))
+    (stroke
+      (width 0.4)
+      (type solid))
+    (fill
+      (type none))
+    (uuid "dcb31f37-6d1d-4544-aba4-6623b8e0221c"))
+  (text "Arrows show functional signal flow; named nets make electrical connections. Physical cable terminates at J601.\nActive hub and electrode-module projects are archived reference designs, outside this passive assembly."
+    (at 20 253 0)
+    (effects
+      (font
+        (size 1.3 1.3))
+      (justify left top))
+    (uuid "1ad817ae-7b57-42f2-a5ba-67fafcf3370a"))
+  (text "ROUTED BENCH CHECKPOINT: manufacturing, measured performance and human-contact safety remain release gates."
+    (at 20 270 0)
+    (effects
+      (font
+        (size 1.3 1.3)
+        (bold yes))
+      (justify left top))
+    (uuid "e2365c9f-a5e1-4234-b582-495f46b71791")))

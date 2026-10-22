@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "EEG32") (type "KiCad") (uri "${KIPRJMOD}/EEG32.pretty") (options "") (descr "EEG32 local footprints")))

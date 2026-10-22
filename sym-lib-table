@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "EEG32") (type "KiCad") (uri "${KIPRJMOD}/EEG32.kicad_sym") (options "") (descr "Reviewed EEG reference symbols")))

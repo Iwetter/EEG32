@@ -1,0 +1,17 @@
+
+# Local environments, captures, credentials, and generated state
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+*.sqlite3*
+*.kicad_prl
+~*.lck
+work/

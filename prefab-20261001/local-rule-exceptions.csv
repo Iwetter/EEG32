@@ -1,0 +1,62 @@
+Exception,Reference,X_mm,Y_mm,Geometry,Disposition
+RF via annular ring,ad5d63af-c5a6-4f88-9727-20157b2e13a0,74.55881,29.591205,diameter0.508/drill0.3048/ring0.1016mm,Named RF-area rule >=0.100mm; geometry retained; supplier DFM confirmation
+RF via annular ring,2ea2d26d-c5b7-4bc5-87e6-2df30607b40c,75.77801,31.751,diameter0.508/drill0.3048/ring0.1016mm,Named RF-area rule >=0.100mm; geometry retained; supplier DFM confirmation
+RF via annular ring,4a9beaf9-3eb8-468f-b31a-7d731a03af8d,75.87961,29.94701,diameter0.508/drill0.3048/ring0.1016mm,Named RF-area rule >=0.100mm; geometry retained; supplier DFM confirmation
+RF via annular ring,9a2342fa-97e6-4020-a4fe-f25bda8366fa,73.71542,27.92001,diameter0.508/drill0.3048/ring0.1016mm,Named RF-area rule >=0.100mm; geometry retained; supplier DFM confirmation
+RF via annular ring,ffa1e45f-f80c-40e5-a628-210ca1f9158d,76.59081,33.656005,diameter0.508/drill0.3048/ring0.1016mm,Named RF-area rule >=0.100mm; geometry retained; supplier DFM confirmation
+Small package SMD land,U1.1,67.05001,30.37,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.2,67.05001,30.77,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.3,67.05001,31.17,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.4,67.05001,31.57,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.5,67.05001,31.97,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.6,67.05001,32.37,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.7,67.05001,32.77,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.8,67.05001,33.17,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.9,67.05001,33.57,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.10,67.05001,33.97,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.11,67.05001,34.37,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.12,67.05001,34.77,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.13,67.80001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.14,68.20001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.15,68.60001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.16,69.00001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.17,69.40001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.18,69.80001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.19,70.20001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.20,70.60001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.21,71.00001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.22,71.40001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.23,71.80001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.24,72.20001,35.52,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.25,72.95001,34.77,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.26,72.95001,34.37,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.27,72.95001,33.97,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.28,72.95001,33.57,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.29,72.95001,33.17,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.30,72.95001,32.77,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.31,72.95001,32.37,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.32,72.95001,31.97,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.33,72.95001,31.57,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.34,72.95001,31.17,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.35,72.95001,30.77,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.36,72.95001,30.37,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.37,72.20001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.38,71.80001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.39,71.40001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.40,71.00001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.41,70.60001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.42,70.20001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.43,69.80001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.44,69.40001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.45,69.00001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.46,68.60001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.47,68.20001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U1.48,67.80001,29.62,0.2x0.95mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U2.1,70.4892,49.6948,0.1x0.1mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U2.2,71.1496,49.6948,0.1x0.1mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U2.3,71.1496,48.5772,0.1x0.1mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U2.4,70.4892,48.5772,0.1x0.1mm,Retained manufacturer package land; explicit DFM acceptance required
+Small package SMD land,U2.5,70.8194,49.136,0.1x0.1mm,Retained manufacturer package land; explicit DFM acceptance required
+Clearance0.127mm,RF reference network,72.4,27.4,area6.1x6.9mm,Named local rule; general clearance remains0.200mm
+Clearance0.127mm,X2 2016 clock footprint,69.0,23.8,area5.5x7.7mm,Named local rule; general clearance remains0.200mm
+Clearance0.127mm,U1 QFN48 escape,65.5,28.5,area8.5x9.0mm,Named local rule; general clearance remains0.200mm
